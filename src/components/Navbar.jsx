@@ -10,13 +10,13 @@ const Navbar = () => {
       </div>
 
       {/* main-menu */}
-      <div>
-        <ul className="flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
+      <div className="hidden md:flex">
+        <ul className="hidden md:flex">
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Work</li>
+          <li>Contact</li>
         </ul>
       </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div></div>
+      <div className="hidden"></div>
     </div>
   );
 };
