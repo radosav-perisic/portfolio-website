@@ -10,6 +10,7 @@ const  Contact = () => {
          </div>
          <input  type='text' name='name' placeholder='Name'className='bg-[#ccd6f6] p-2'/>
          <input type='email ' name='email' placeholder='Email' className='my-4 p-2 bg-[#ccd6f6]'/>
+         <textarea placeholder='Message' name='message' rows='10' className='bg-[#ccd6f6] p-2'></textarea>
     </form>
 
     </div>
