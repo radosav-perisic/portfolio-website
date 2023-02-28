@@ -74,8 +74,16 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
+        <li className="py-6 text-4xl">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
         <li className="py-6 text-4xl">Contact</li>
       </ul>
 
