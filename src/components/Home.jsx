@@ -1,8 +1,9 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
-    <div name='home' className="w-full h-screen bg-[#262626]">
+    <div name="home" className="w-full h-screen bg-[#262626]">
       {/* Cointainer */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#ca8a04]">Hi, my name is</p>
@@ -23,12 +24,14 @@ function Home() {
           developers, and other stakeholders make me an excellent team player.
         </p>
         <div>
+        <Link to="work" smooth={true} duration={800}>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04]">
-            View Work{" "}
+            View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
+          </Link>;
         </div>
       </div>
     </div>
