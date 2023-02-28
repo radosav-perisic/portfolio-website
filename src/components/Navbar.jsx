@@ -44,7 +44,11 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li>Contact</li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburger */}
