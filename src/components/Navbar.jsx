@@ -25,11 +25,12 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li>
-          {" "}
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
-          <Link to="about" smooth={true} duration={500}>
+        </li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
             About
           </Link>
         </li>
