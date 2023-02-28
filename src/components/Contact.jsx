@@ -9,6 +9,7 @@ const  Contact = () => {
             <p className='text-[#bcbcb3] py-4 font-sans'>// Submit the form below or send me an email - radosavperisic00@gmail.com</p>
          </div>
          <input  type='text' name='name' placeholder='Name'className='bg-[#ccd6f6] p-2'/>
+         <input type='email ' name='email' placeholder='Email' className='my-4 p-2 bg-[#ccd6f6]'/>
     </form>
 
     </div>
