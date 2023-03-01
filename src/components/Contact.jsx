@@ -1,7 +1,7 @@
 import React from 'react'
 
 const  Contact = () => {
- const number = <span className='font-sans'>00</span>
+ const number = <span className='font-sans font-thin'>00</span>
 
   return (
     <div name='contact' className='w-full h-screen bg-[#262626] flex justify-center items-center p-4'>
