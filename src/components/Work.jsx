@@ -29,7 +29,7 @@ const Work = () => {
                 The Hangman
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://hangmania.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -53,7 +53,7 @@ const Work = () => {
                 Pantry Storage Tracker
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://pantry-storage-tracker.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -77,7 +77,7 @@ const Work = () => {
                 Authenthication App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://quick-auth.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -101,7 +101,7 @@ const Work = () => {
                 Tech Cart
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://the-gadget-cart.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
