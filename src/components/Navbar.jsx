@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import rp from "../assets/rp.png";
+import rp from "../assets/RP.ico";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262626] text-gray-300 ">
       <div>
-        <img src={rp} alt="Logo Image" style={{ width: "100px" }} />
+        <img src={rp} alt="Logo Image" style={{ width: "145px" }} />
       </div>
 
       {/* main-menu */}
