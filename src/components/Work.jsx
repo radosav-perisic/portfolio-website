@@ -24,7 +24,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-300">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-2xl font-bold text-white tracking-wider">
                 The Hangman
               </span>
@@ -48,7 +48,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-300">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Pantry Storage Tracker
               </span>
@@ -72,8 +72,8 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
+              <span className="text-2xl font-bold text-white tracking-wider ">
                 Authenthication App
               </span>
               <div className="pt-8 text-center">
@@ -96,7 +96,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-300">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-2xl justify-items-center font-bold text-white tracking-wider">
                 Tech Cart
               </span>
