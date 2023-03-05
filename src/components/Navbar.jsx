@@ -111,7 +111,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f97316]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ca8a04]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:radosavperisic00@gmail.com"
