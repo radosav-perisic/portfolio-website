@@ -62,7 +62,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#262626] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
