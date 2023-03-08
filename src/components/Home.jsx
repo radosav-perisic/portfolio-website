@@ -5,7 +5,7 @@ function Home() {
   return (
     <div name="home" className="w-full h-screen bg-[#262626]">
       {/* Cointainer */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] lg:pt-10 pt-48 mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#ca8a04]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#d8da91]">
           Radosav Perisic
