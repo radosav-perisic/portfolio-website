@@ -4,22 +4,28 @@ import {
   FaBars,
   FaTimes,
   FaGithub,
-  FaLinkedin,
-  FaFacebook,
+  FaLinkedin
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import rp from "../assets/RP.ico";
 import { Link } from "react-scroll";
+import SocialsButton from "./SocialsButton";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const clickHandler = () => setNav(!nav);
+  const [social, setSocial] = useState(false)
+  const navClickHandler = () => setNav(!nav);
+  const socialClickHandler = () => setSocial(!social);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262626] text-gray-300 ">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262626] text-gray-300 z-10">
       <div>
         <img src={rp} alt="Logo Image" style={{ width: "145px" }} />
+      </div>
+            {/* Socials button */}
+            <div onClick={socialClickHandler} className="md:hidden z-10 ">
+        {!social  ? <SocialsButton /> : <FaTimes size={'1.7rem'}/>}
       </div>
 
       {/* main-menu */}
@@ -51,9 +57,9 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
+       
       {/* Hamburger */}
-      <div onClick={clickHandler} className="md:hidden z-10">
+      <div onClick={navClickHandler} className="md:hidden z-50 relative ">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -62,40 +68,40 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#262626] flex flex-col justify-center items-center"
+            : "absolute z-20 top-0 left-0 w-full h-screen bg-[#262626] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
+          <Link onClick={navClickHandler} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={clickHandler} to="about" smooth={true} duration={500}>
+          <Link onClick={navClickHandler} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={clickHandler} to="skills" smooth={true} duration={500}>
+          <Link onClick={navClickHandler} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={clickHandler} to="work" smooth={true} duration={500}>
+          <Link onClick={navClickHandler} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={clickHandler} to="contact" smooth={true} duration={500}>
+          <Link onClick={navClickHandler} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
       </ul>
 
       {/* Social icons */}
-      <div className="lg:flex fixed flex-col top-[35%] left-0">
+      <div className={social ? "lg:flex fixed flex-col top-[35%] left-0" : "hidden lg:flex fixed flex-col top-[35%] left-0"}>
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600" >
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/radosav-perisic-58ab96265/"
