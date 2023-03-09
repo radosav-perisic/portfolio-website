@@ -3,7 +3,7 @@ const About = () => {
     <div name="about" className="w-full h-screen bg-[#262626] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="sm:text-right pb-8 pl-4">
-          <p className="text-4xl font-bold inline border-b-4 border-[#ca8a04]">
+          <p className="text-4xl font-bold inline border-b-4 text-[#bcbcb3] border-[#ca8a04]">
             About
           </p>
         </div>
