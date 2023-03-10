@@ -6,8 +6,8 @@ import TechCart from "../assets/tech-cart.png";
 
 const Work = () => {
   return (
-    <div name='work' className="bg-[#262626] w-full md:h-screen text-[#bcbcb3] font-bold text-lg">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name='work' className="bg-[#262626] w-full md:h-screen text-[#bcbcb3] font-bold text-lg z-30">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full z-40">
         <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 text-[#bcbcb3] border-[#ca8a04]">
             Work
@@ -73,7 +73,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <span className="text-2xl font-bold text-white tracking-wider ">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 Authenthication App
               </span>
               <div className="pt-8 text-center">
