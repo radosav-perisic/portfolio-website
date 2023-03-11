@@ -1,7 +1,7 @@
 import React from "react";
-import Hangman from "../assets/Hangman.png";
-import Pantry from "../assets/Pantry.png";
-import Auth from "../assets/auth.png";
+import Hangman from "../assets/hangman.png";
+import Pantry from "../assets/pantry.png";
+import Auth from "../assets/auth-app.png";
 import TechCart from "../assets/tech-cart.png";
 
 const Work = () => {
@@ -20,7 +20,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Hangman})` }}
+            style={{ backgroundImage: `url(${Hangman})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -44,7 +44,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Pantry})` }}
+            style={{ backgroundImage: `url(${Pantry})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -68,7 +68,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Auth})` }}
+            style={{ backgroundImage: `url(${Auth})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -92,7 +92,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${TechCart})` }}
+            style={{ backgroundImage: `url(${TechCart})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
