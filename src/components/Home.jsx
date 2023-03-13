@@ -1,5 +1,6 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Typed from "react-typed";
 
 function Home() {
   return (
@@ -11,7 +12,8 @@ function Home() {
           Radosav Perisic
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#bcbcb3]">
-          I'm a React Front End Engineer.
+          I'm a React Front End Engineer. <Typed className="text-4xl sm:text-7xl font-bold pl-2 text-[#767672]"
+           strings={['Javascript', 'React', 'TypeScript', 'Tailwind']} />
         </h2>
         <p className="text-[#adaf92] py-4 max-w-[700px]">
           As a front-end engineer, I have abundant experience working with
@@ -24,14 +26,15 @@ function Home() {
           developers, and other stakeholders make me an excellent team player.
         </p>
         <div>
-        <Link to="work" smooth={true} duration={800}>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04]">
-            View Work
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
-          </Link>;
+          <Link to="work" smooth={true} duration={800}>
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04]">
+              View Work
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
+          ;
         </div>
       </div>
     </div>
