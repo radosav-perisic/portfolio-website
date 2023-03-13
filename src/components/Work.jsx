@@ -1,6 +1,6 @@
 import React from "react";
 import Hangman from "../assets/Hangman.png";
-import Pantry from "../assets/pantry.png";
+import Pantry from "../assets/Pantry.png";
 import Auth from "../assets/auth-app.png";
 import TechCart from "../assets/tech-cart.png";
 
