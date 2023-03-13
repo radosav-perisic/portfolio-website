@@ -101,7 +101,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className={social ? "lg:flex fixed flex-col top-[35%] left-0" : "hidden lg:flex fixed flex-col top-[35%] left-0"}>
         <ul>
-          <li className={social ? "w-[140px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600" :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600"} >
+          <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'transform transition-all translate-x-24 duration-300': null} bg-blue-600` :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600"} >
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/radosav-perisic-58ab96265/"
@@ -109,15 +109,15 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={social ? 20 : 30} />
             </a>
           </li>
-          <li className={social ? "w-[140px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]" : "w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]"}>
+          <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px]  ${social ? 'translate-x-24 duration-330 ease-in-out transition-transform': null} bg-[#333333]` : "w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]"}>
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/radosav-perisic"
             >
-              Github <FaGithub size={social ? 20 : 30} />
+              Github <FaGithub  size={social ? 20 : 30} />
             </a>
           </li>
-          <li className={social ? "w-[140px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ca8a04]" :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ca8a04]" }>
+          <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'translate-x-24 duration-360 ease-in-out transition-transform': null}  bg-[#ca8a04]` :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ca8a04]" }>
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:radosavperisic.contact@gmail.com"
@@ -125,7 +125,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={social ? 20 : 30} />
             </a>
           </li>
-          <li className={social ? "w-[140px] h-[45px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]": "w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]"}>
+          <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'transform transition-all translate-x-24 duration-390': null} bg-[#565f69]`: "w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]"}>
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href='/Resume.pdf'

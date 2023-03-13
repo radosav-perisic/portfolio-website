@@ -27,6 +27,12 @@
         rgba(245, 134, 7, 0.8),
         hsla(58, 74%, 61%, 0.8)
     )!important;
-    opacity:
-    
+}
+
+.content-div:focus {
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 134, 7, 0.8),
+        hsla(58, 74%, 61%, 0.8)
+    )!important;
 }

@@ -30,7 +30,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://hangmania.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
+                  <button className=" text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
@@ -106,7 +106,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/radosav-perisic/the-gadget-cart">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
