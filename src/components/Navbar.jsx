@@ -11,6 +11,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import rp from "../assets/RP.ico";
 import { Link } from "react-scroll";
 import SocialsButton from "./SocialsButton";
+import ResumeButton from "./ResumeButton";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -27,10 +28,15 @@ const Navbar = () => {
             <div onClick={socialClickHandler} className="md:hidden z-10 ">
         {!social  ? <SocialsButton /> : <FaTimes size={'1.7rem'}/>}
       </div>
+      {/* Resume Button */}
+   
 
       {/* main-menu */}
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex flex-wrap items-center">
+        <li>
+        <ResumeButton href='/Resume.pdf' /> 
+        </li>
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
