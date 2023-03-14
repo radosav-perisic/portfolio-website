@@ -12,9 +12,10 @@ function Home() {
           Radosav Perisic
         </h1>
         <h2 className="text-4xl sm:text-7xl sm:text-left z-prop  font-bold text-[#bcbcb3] ">
-          I'm a React Front End Engineer. <Typed className="text-4xl sm:text-7xl font-bold pl-2 text-[#8f6e19]"
-           strings={['Javascript', 'React', 'TypeScript', 'Tailwind' ]} typeSpeed={60} backSpeed={70} loop/>
+          I'm a React Front End Engineer. 
         </h2>
+    <Typed className="text-4xl sm:text-7xl font-bold z-prop text-[#8f6e19]"
+           strings={['Javascript', 'React', 'TypeScript', 'Tailwind' ]} typeSpeed={60} backSpeed={70} loop/> 
         <p className="text-[#adaf92] py-4 max-w-[700px] z-prop">
           As a front-end engineer, I have abundant experience working with
           JavaScript, React.js, TypeScript, and Tailwind. I specialize in using
