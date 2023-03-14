@@ -1,7 +1,10 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { useMediaQuery } from '@react-hook/media-query';
 
 function Particle() {
+const columns = useMediaQuery('(min-width: 768px)') ? 8 : 4;
+
 const particlesInit = async (main) => {
     console.log(main);
    await loadFull(main )
@@ -20,7 +23,7 @@ return (
         },
         "particles": {
             "number": {
-                "value": 8,
+                "value": columns,
                 "density": {
                     "enable": false,
                     "value_area": 800
