@@ -2,18 +2,18 @@ const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#262626] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="sm:text-right pb-8 pl-4">
+        <div className="sm:text-right pb-8 pl-4 z-prop">
           <p className="text-4xl font-bold inline border-b-4 text-[#bcbcb3] border-[#ca8a04]">
             About
           </p>
         </div>
         <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="sm:text-right text-4xl font-bold">
+          <div className="sm:text-right text-4xl font-bold z-prop">
             <p>
               Hi. I'm Radosav, nice to meet you! Please take a look around.
             </p>
           </div>
-          <div>
+          <div className="z-prop">
             <p>
               I am passionate about building excellent software that improves
               the lives of those around me. I specialize in creating software
