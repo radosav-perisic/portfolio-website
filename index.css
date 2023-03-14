@@ -36,3 +36,10 @@
         hsla(58, 74%, 61%, 0.8)
     )!important;
 }
+
+.particles-div {
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
