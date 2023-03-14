@@ -4,10 +4,12 @@ import About from "./src/components/About"
 import Skills from "./src/components/Skills"
 import Work from "./src/components/Work"
 import Contact from "./src/components/Contact"
+import Particle from "./src/components/Particle"
 
 function App() {
   return (
     <div>
+      <Particle className='particles-div'/>
       <Navbar />
       <Home />
       <About />
