@@ -3,7 +3,7 @@ import { loadFull } from "tsparticles";
 import { useMediaQuery } from '@react-hook/media-query';
 
 function Particle() {
-const columns = useMediaQuery('(min-width: 768px)') ? 8 : 4;
+const columns = useMediaQuery('(min-width: 768px)') ? 10 : 4;
 
 const particlesInit = async (main) => {
     console.log(main);
@@ -60,7 +60,7 @@ return (
             },
             "rotate": {
                 "value": 0,
-                "random": true,
+                "random": true, 
                 "direction": "clockwise",
                 "animation": {
                     "enable": true,
@@ -78,7 +78,7 @@ return (
             "move": {
                 "enable": true,
                 "speed": 2,
-                "direction": "none",
+                "direction": "none",    
                 "random": false,
                 "straight": false,
                 "out_mode": "out",

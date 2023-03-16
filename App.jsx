@@ -9,7 +9,7 @@ import Particle from "./src/components/Particle"
 function App() {
   return (
     <div>
-      <Particle className='particles-div'/>
+      <Particle/>
       <Navbar />
       <Home />
       <About />
