@@ -1,6 +1,7 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
+import AltResumeButton from "./AltResumeButton";
 
 function Home() {
   return (
@@ -9,13 +10,13 @@ function Home() {
       <div className="max-w-[1000px] lg:pt-10 pt-48 mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#ca8a04] z-prop">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
-          Radosav Perisic
+          Radosav Perisic 
         </h1>
         <h2 className="text-4xl sm:text-7xl sm:text-left z-prop  font-bold text-[#bcbcb3] ">
           I'm a React Front End Engineer. 
         </h2>
     <Typed className="text-4xl sm:text-7xl font-bold z-prop text-[#8f6e19]"
-           strings={['Javascript', 'React', 'TypeScript', 'Tailwind' ]} typeSpeed={60} backSpeed={70} loop/> 
+           strings={['Javascript', 'React', 'TypeScript', 'Tailwind' ]} typeSpeed={60} backSpeed={70} loop/>
         <p className="text-[#adaf92] py-4 max-w-[700px] z-prop">
           As a front-end engineer, I have abundant experience working with
           JavaScript, React.js, TypeScript, and Tailwind. I specialize in using
@@ -35,8 +36,8 @@ function Home() {
               </span>
             </button>
           </Link>
-          ;
         </div>
+        <AltResumeButton />
       </div>
     </div>
   );
