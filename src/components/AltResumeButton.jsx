@@ -1,6 +1,6 @@
 import React from "react";
 
-const ResumeButton = () => {
+const AltResumeButton = () => {
   return (
     <a
       className="flex justify-center items-center w-full text-gray-300"
@@ -15,4 +15,4 @@ const ResumeButton = () => {
   );
 };
 
-export default ResumeButton;
+export default AltResumeButton;
