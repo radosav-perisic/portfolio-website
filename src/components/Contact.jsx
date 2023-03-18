@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeButton from './ResumeButton'
+import AltResumeButton from './AltResumeButton'
 
 const  Contact = () => {
 
