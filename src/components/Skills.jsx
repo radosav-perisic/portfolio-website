@@ -19,7 +19,7 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4 z-prop">
-            // These are the technologies I've worked with
+            // These are the technologies I work with
           </p>
         </div>
 
