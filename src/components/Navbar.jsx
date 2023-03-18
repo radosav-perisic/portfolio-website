@@ -12,20 +12,27 @@ import rp from "../assets/RP.ico";
 import { Link } from "react-scroll";
 import SocialsButton from "./SocialsButton";
 import ResumeButton from "./ResumeButton";
+import PortfolioMobile from "./PortoflioMobile";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [social, setSocial] = useState(false)
+  const [resume, setResume] = useState(false)
   const navClickHandler = () => setNav(!nav);
   const socialClickHandler = () => setSocial(!social);
+  const resumeClickHandler = () => setResume(!resume);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262626] text-gray-300 z-10">
       <div>
         <img src={rp} alt="Logo Image" style={{ width: "145px" }} />
       </div>
-            {/* Socials button */}
-            <div onClick={socialClickHandler} className="md:hidden z-10 ">
+            {/* Resume button */}
+            <div onClick={resumeClickHandler} className="md:hidden z-10 ">
+        {!resume  ? <PortfolioMobile /> : <PortfolioMobile/>}
+      </div>
+         {/* Socials button */}
+         <div onClick={socialClickHandler} className="md:hidden z-10 ">
         {!social  ? <SocialsButton /> : <FaTimes size={'1.7rem'}/>}
       </div>
       {/* Resume Button */}
