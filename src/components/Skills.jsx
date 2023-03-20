@@ -15,10 +15,10 @@ const Skills = () => {
       {/*Container*/}
       <div className="max-w-[1000px] md:p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="z-prop">
-          <p className="text-4xl font-bold inline border-b-4 border-[#ca8a04]">
+          <p className="text-4xl ml-4 font-bold inline border-b-4 border-[#ca8a04]">
             Skills
           </p>
-          <p className="py-4 z-prop">
+          <p className="py-4 z-prop ml-4">
             // These are the technologies I work with
           </p>
         </div>
