@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <div name='work' className="bg-[#262626] w-full md:h-screen text-[#bcbcb3] font-bold text-lg z-30">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full z-40">
-        <div className="pb-8 z-prop">
+        <div className="pb-8 z-prop lg:mt-0 mt-24">
           <p className="text-4xl  font-bold inline border-b-4 text-[#bcbcb3] border-[#ca8a04]">
             Work
           </p>
@@ -116,7 +116,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>  
   );
 };
 
