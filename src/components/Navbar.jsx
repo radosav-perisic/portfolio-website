@@ -72,7 +72,7 @@ const Navbar = () => {
       </ul>
        
       {/* Hamburger */}
-      <div onClick={navClickHandler} className="md:hidden z-50 relative ">
+      <div onClick={navClickHandler} className="md:hidden z-50 relative ml-1">
         {!nav ? <FaBars size={'1.4rem'}/> : <FaTimes />}
       </div>
 
