@@ -14,7 +14,7 @@ const Skills = () => {
     >
       {/*Container*/}
       <div className="max-w-[1000px] md:p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="z-prop lg:mt-0 mt-24">
+        <div className="z-prop pb-8 lg:mt-0 mt-24">
           <p className="text-4xl ml-4 font-bold inline border-b-4 border-[#ca8a04]">
             Skills
           </p>
