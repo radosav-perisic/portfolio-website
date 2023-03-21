@@ -25,15 +25,15 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262626] text-gray-300 z-10">
       <div>
-        <img src={rp} alt="Logo Image" style={{ width: "145px" }} />
+        <img src={rp} alt="Logo Image" style={{ width: "145px"}} />
       </div>
             {/* Resume button */}
-            <div onClick={resumeClickHandler} className="md:hidden z-10 ">
+            <div onClick={resumeClickHandler} className="md:hidden z-10  mr-1">
         {!resume  ? <PortfolioMobile /> : <PortfolioMobile/>}
       </div>
          {/* Socials button */}
          <div onClick={socialClickHandler} className="md:hidden z-10 ">
-        {!social  ? <SocialsButton /> : <FaTimes size={'1.7rem'}/>}
+        {!social  ? <SocialsButton /> : <FaTimes size={'1.7rem'} style={{margin: '1.61rem'}}/>}
       </div>
       {/* Resume Button */}
    
