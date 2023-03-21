@@ -2,12 +2,14 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
 import AltResumeButton from "./AltResumeButton";
+import PortfolioMobile from "./PortoflioMobile";
+import ResumeButton from "./ResumeButton";
 
 function Home() {
   return (
     <div name="home" className="w-full h-screen bg-[#262626]">
       {/* Cointainer */}
-      <div className="max-w-[1000px] lg:pt-10 pt-48 mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] lg:pt-10 pt-44 mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#ca8a04] z-prop">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
           Radosav Perisic 
@@ -27,7 +29,7 @@ function Home() {
           to detail and ability to communicate effectively with designers,
           developers, and other stakeholders make me an excellent team player.
         </p>
-        <div>
+        <div className="flex">
           <Link to="work" smooth={true} duration={800}>
             <button className=" text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04]">
               View Work
@@ -37,7 +39,9 @@ function Home() {
             </button>
           </Link>
         </div>
+        <div className="hidden lg:flex justify-center items-center w-full text-gray-300">
         <AltResumeButton />
+        </div>
       </div>
     </div>
   );
