@@ -77,7 +77,7 @@ const Work = () => {
                 Authenthication App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://quick-auth.netlify.app">
+                <a href="https://travelers-oasis.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
