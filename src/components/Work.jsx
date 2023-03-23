@@ -1,7 +1,7 @@
 import React from "react";
 import Hangman from "../assets/Hangman.png";
 import Pantry from "../assets/Pantry.png";
-import Auth from "../assets/auth-app.png";
+import Traveler from "../assets/traveler.png";
 import TechCart from "../assets/tech-cart.png";
 
 const Work = () => {
@@ -68,7 +68,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Auth})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${Traveler})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
