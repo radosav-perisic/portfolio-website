@@ -4,7 +4,7 @@ import AltResumeButton from './AltResumeButton'
 const  Contact = () => {
 
   return (
-    <div name='contact' className='w-full h-screen bg-[#262626] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full md:h-screen bg-[#262626] flex justify-center items-center p-4'>
     <form method='POST' action='https://getform.io/f/458cfa83-c534-4402-b446-978e8a78cd76' className='flex flex-col max-w-[600px] w-full'>
          <div className='z-prop pb-3'>
             <p className='text-4xl font-bold inline  border-b-4 border-[#ca8a04] text-[#bcbcb3]'>Contact</p>
