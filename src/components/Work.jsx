@@ -1,6 +1,6 @@
 import React from "react";
 import Hangman from "../assets/Hangman.png";
-import Pantry from "../assets/Pantry.png";
+import Tesla from "../assets/tesla.png";
 import Traveler from "../assets/traveler.png";
 import TechCart from "../assets/tech-cart.png";
 
@@ -44,21 +44,21 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Pantry})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${Tesla})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Pantry Storage Tracker
+                Tesla Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="https://pantry-storage-tracker.netlify.app">
+                <a href="https://rp-tesla-clone.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/radosav-perisic/pantry-storage-tracker">
+                <a href="https://github.com/radosav-perisic/tesla-clone">
                   <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
