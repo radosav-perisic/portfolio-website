@@ -36,7 +36,7 @@ const Contact = () => {
           placeholder="Message"
           name="message"
           rows="10"
-          className="z-prop bg-[#ccd6f6] p-2"
+          className="z-prop bg-[#f6f2e2] p-2"
         ></textarea>
         <button className="text-white z-prop border-2 hover:bg-[#ca8a04] hover:border-[#ca8a04] px-4 py-3 my-4 mx-auto flex items-center">
           Let's Collaborate
