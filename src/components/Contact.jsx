@@ -30,7 +30,7 @@ const Contact = () => {
           type="email "
           name="email"
           placeholder="Email"
-          className="z-prop my-4 p-2 bg-[#ccd6f6]"
+          className="z-prop my-4 p-2 bg-[#f6f2e2]"
         />
         <textarea
           placeholder="Message"
