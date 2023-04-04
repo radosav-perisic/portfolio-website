@@ -30,12 +30,12 @@ const Work = () => {
                 Twitter Clone
               </span>
               <div className="pt-8 z-prop text-center">
-                <a href="https://hangmania.netlify.app">
+                <a href="https://twitter-clone-alarmovski.vercel.app">
                   <button className=" text-center z-prop rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/radosav-perisic/the-hangman">
+                <a href="https://github.com/radosav-perisic/twitter-clone">
                   <button className="text-center z-prop rounded-lg px-4 py-3 my-12 mx-4 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
