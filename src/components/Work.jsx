@@ -1,5 +1,6 @@
 import React from "react";
-import Hangman from "../assets/Hangman.png";
+import Twitter from "../assets/Twitter.png";
+
 import Tesla from "../assets/tesla.png";
 import Traveler from "../assets/traveler.png";
 import TechCart from "../assets/tech-cart.png";
@@ -20,7 +21,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 z-prop">
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Hangman})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${Twitter})`, backgroundSize: 'contain' }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
