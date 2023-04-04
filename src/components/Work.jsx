@@ -27,7 +27,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
               <span className="text-2xl z-prop font-bold text-white tracking-wider">
-                The Hangman
+                Twitter Clone
               </span>
               <div className="pt-8 z-prop text-center">
                 <a href="https://hangmania.netlify.app">
