@@ -40,7 +40,7 @@ const Navbar = () => {
 
       {/* main-menu */}
 
-      <ul className="hidden md:flex flex-wrap items-center">
+      <ul className="hidden md:flex flex-wrap items-center font-semibold">
         <li>
         <ResumeButton href='/Resume.pdf' /> 
         </li>
