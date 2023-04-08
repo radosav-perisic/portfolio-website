@@ -24,16 +24,16 @@
 .content-div:hover {
     background-image: linear-gradient(
         to right,
-        rgba(245, 134, 7, 0.8),
-        hsla(58, 74%, 61%, 0.8)
+        rgba(245, 145, 30, 0.8),
+        hsla(31, 84%, 5%, 0.8)
     )!important;
 }
 
 .content-div:focus {
     background-image: linear-gradient(
         to right,
-        rgba(245, 134, 7, 0.8),
-        hsla(58, 74%, 61%, 0.8)
+        rgba(189, 105, 9, 0.8),
+        hsla(32, 89%, 11%, 0.8)
     )!important;
 }
 
