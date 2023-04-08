@@ -45,27 +45,27 @@ const Navbar = () => {
         <ResumeButton href='/Resume.pdf' /> 
         </li>
         <li>
-          <Link className=" hover:text-[#ca8104]" to="home" smooth={true} duration={500}>
+          <Link className=" hover:text-[#ca8104] duration-300" to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link className=" hover:text-[#ca8104]"  to="about" smooth={true} duration={500}>
+          <Link className=" hover:text-[#ca8104] duration-300"  to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link className=" hover:text-[#ca8104]"  to="skills" smooth={true} duration={500}>
+          <Link className=" hover:text-[#ca8104] duration-300"  to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link className=" hover:text-[#ca8104]" to="work" smooth={true} duration={500}>
+          <Link className=" hover:text-[#ca8104] duration-300" to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li>
-          <Link className=" hover:text-[#ca8104]"  to="contact" smooth={true} duration={500}>
+          <Link className=" hover:text-[#ca8104] duration-300"  to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
