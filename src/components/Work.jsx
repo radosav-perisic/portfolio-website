@@ -99,7 +99,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-4xl justify-items-center font-bold text-[#1b1b18] tracking-wider">
-                Tech Cart
+                Gadget Cart
               </span>
               <div className="pt-8 text-center">
                 <a href="https://the-gadget-cart.netlify.app">
