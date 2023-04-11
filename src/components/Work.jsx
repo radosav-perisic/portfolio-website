@@ -83,7 +83,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/radosav-perisic/travelers-oasis">
                   <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
