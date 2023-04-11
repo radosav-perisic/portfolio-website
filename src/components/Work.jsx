@@ -31,12 +31,12 @@ const Work = () => {
               </span>
               <div className="pt-8 z-prop text-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
-                  <button className=" text-center z-prop rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className=" text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/twitter-clone">
-                  <button className="text-center z-prop rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -55,12 +55,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://rp-tesla-clone.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/tesla-clone">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -79,12 +79,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://travelers-oasis.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -103,12 +103,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://the-gadget-cart.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/the-gadget-cart">
-                  <button className="text-center rounded-lg px-4 py-3 my-12 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-lg">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
