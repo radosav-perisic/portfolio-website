@@ -31,7 +31,7 @@ function Home() {
         </p>
         <div className="flex">
           <Link to="work" smooth={true} duration={800}>
-            <button className=" text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-300">
+            <button className=" text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
