@@ -32,8 +32,8 @@
 .content-div:focus {
     background-image: linear-gradient(
         to right,
-        rgba(189, 105, 9, 0.8),
-        hsla(32, 89%, 11%, 0.8)
+        rgba(245, 145, 30, 0.8),
+        hsla(31, 84%, 5%, 0.8)
     )!important;
 }
 
