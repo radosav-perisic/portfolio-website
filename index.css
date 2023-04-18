@@ -23,7 +23,7 @@
 
 .content-div:hover {
     background-image: linear-gradient(
-        to right,
+        to bottom,
         rgba(245, 145, 30, 0.8),
         hsla(31, 84%, 5%, 0.8)
     )!important;
@@ -31,7 +31,7 @@
 
 .content-div:focus {
     background-image: linear-gradient(
-        to right,
+        to bottom,
         rgba(245, 145, 30, 0.8),
         hsla(31, 84%, 5%, 0.8)
     )!important;
