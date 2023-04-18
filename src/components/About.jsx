@@ -7,19 +7,20 @@ const About = () => {
             About
           </p>
         </div>
-        <div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="sm:text-right text-4xl font-bold z-prop">
+        <div className="max-w-[1300px] w-full px-4 grid sm:grid-cols-2 gap-8">
+          <div className="sm:text-right lg:text-5xl text-4xl font-bold z-prop">
             <p>
               Hi. I'm Radosav, nice to meet you! Please take a look around.
             </p>
           </div>
           <div className="z-prop">
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-bussiness all the
-              way to large enterprise corporations. What would you do if you had
-              a React front end Engineer available at your fingertips?
+              As a front-end engineer, I have abundant experience working with
+          JavaScript, React.js, TypeScript, and Tailwind. With a deep understanding of both the theoretical and
+          practical aspects of front-end development, I excel at creating
+          visually stunning and highly functional user interfaces. My attention
+          to detail and ability to communicate effectively with designers,
+          developers, and other stakeholders make me an excellent team player.
             </p>
           </div>
         </div>
