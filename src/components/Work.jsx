@@ -21,7 +21,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 z-prop">
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Twitter})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${Twitter})`, backgroundSize: '480px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -45,7 +45,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Tesla})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${Tesla})`, backgroundSize: '550px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -69,7 +69,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Traveler})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${Traveler})`, backgroundSize: '480px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -93,7 +93,7 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${TechCart})`, backgroundSize: 'contain' }}
+            style={{ backgroundImage: `url(${TechCart})`, backgroundSize: '480px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
