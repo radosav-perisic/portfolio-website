@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-[#262626] z-prop w-full md:h-screen text-[#bcbcb3]"
+      className="background z-prop w-full md:h-screen text-[#bcbcb3]"
     >
       {/*Container*/}
       <div className="max-w-[1000px] md:p-4 mx-auto flex flex-col justify-center w-full h-full">
