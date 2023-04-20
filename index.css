@@ -37,6 +37,22 @@
     )!important;
 }
 
+.background {
+    background-image: linear-gradient(
+        to top,
+        rgb(38, 38, 38),
+        hsl(0, 0%, 6%)
+    )!important;
+}
+
+.background-2 {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(38, 38, 38),
+        hsl(0, 0%, 6%)
+    )!important;
+}
+
 .particles-div {
     position:fixed;
     width: 100%;
