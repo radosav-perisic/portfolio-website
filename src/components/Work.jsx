@@ -3,7 +3,7 @@ import Twitter from "../assets/Twitter.png";
 
 import Tesla from "../assets/tesla.png";
 import Traveler from "../assets/traveler.png";
-import TechCart from "../assets/tech-cart.png";
+import Claut from "../assets/claut.png";
 
 const Work = () => {
   return (
@@ -93,21 +93,21 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${TechCart})`, backgroundSize: '480px' }}
+            style={{ backgroundImage: `url(${Claut})`, backgroundSize: '480px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-4xl justify-items-center font-bold text-[#1b1b18] tracking-wider">
-                Gadget Cart
+                Claut
               </span>
               <div className="pt-8 text-center">
-                <a href="https://the-gadget-cart.netlify.app">
+                <a href="https://claut.netlify.app">
                   <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/radosav-perisic/the-gadget-cart">
+                <a href="https://github.com/radosav-perisic/claut">
                   <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
