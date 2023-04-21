@@ -3,7 +3,7 @@ import Twitter from "../assets/Twitter.png";
 
 import Tesla from "../assets/tesla.png";
 import Traveler from "../assets/traveler.png";
-import Claut from "../assets/claut.png";
+import Claut from "../assets/Claut.png";
 
 const Work = () => {
   return (
