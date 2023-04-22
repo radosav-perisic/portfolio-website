@@ -1,3 +1,4 @@
+import { useState } from "react"
 import Home from "./src/components/Home"
 import Navbar from "./src/components/Navbar"
 import About from "./src/components/About"
@@ -7,10 +8,12 @@ import Contact from "./src/components/Contact"
 import Particle from "./src/components/Particle"
 
 function App() {
+  const [particles, setParticles] = useState(true)
+  const particleClick = () => setParticles(!particles)
   return (
     <div>
-      <Particle/>
-      <Navbar />
+      {particles ? <Particle/> : null}
+      <Navbar particleClick={particleClick} />
       <Home />
       <About />
       <Skills />
