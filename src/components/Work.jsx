@@ -21,30 +21,6 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 z-prop">
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Twitter})`, backgroundSize: '480px' }}
-            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
-              <span className="text-4xl z-prop font-bold text-[#1b1b18] tracking-wider">
-                Twitter Clone
-              </span>
-              <div className="pt-8 z-prop text-center">
-                <a href="https://twitter-clone-alarmovski.vercel.app">
-                  <button className=" text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/radosav-perisic/twitter-clone">
-                  <button className="text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/*Grid Item*/}
-          <div
             style={{ backgroundImage: `url(${Tesla})`, backgroundSize: '550px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
@@ -69,30 +45,6 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${Traveler})`, backgroundSize: '480px' }}
-            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <span className="text-4xl font-bold text-[#1b1b18] tracking-wider">
-                Traveler's Oasis
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://travelers-oasis.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/*Grid Item*/}
-          <div
             style={{ backgroundImage: `url(${Claut})`, backgroundSize: '480px' }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
@@ -108,6 +60,54 @@ const Work = () => {
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${Twitter})`, backgroundSize: '480px' }}
+            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
+              <span className="text-4xl z-prop font-bold text-[#1b1b18] tracking-wider">
+                Twitter Clone
+              </span>
+              <div className="pt-8 z-prop text-center">
+                <a href="https://twitter-clone-alarmovski.vercel.app">
+                  <button className=" text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/radosav-perisic/twitter-clone">
+                  <button className="text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${Traveler})`, backgroundSize: '480px' }}
+            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
+              <span className="text-4xl font-bold text-[#1b1b18] tracking-wider">
+                Traveler's Oasis
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://travelers-oasis.netlify.app">
+                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/radosav-perisic/travelers-oasis">
                   <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
