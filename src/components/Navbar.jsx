@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-
 import {
   FaBars,
   FaTimes,
   FaGithub,
   FaLinkedin
 } from "react-icons/fa";
+import {
+  HiOutlineSparkles
+} from "react-icons/hi";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import rp from "../assets/RP.ico";
@@ -14,16 +16,17 @@ import SocialsButton from "./SocialsButton";
 import ResumeButton from "./ResumeButton";
 import PortfolioMobile from "./PortoflioMobile";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [nav, setNav] = useState(false);
   const [social, setSocial] = useState(false)
   const [resume, setResume] = useState(false)
+
   const navClickHandler = () => setNav(!nav);
   const socialClickHandler = () => setSocial(!social);
   const resumeClickHandler = () => setResume(!resume);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-transparent text-gray-300 z-10">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-transparent shadow-lg text-gray-300 z-10">
       <div>
         <img src={rp} alt="Logo Image" style={{ width: "145px"}} />
       </div>
@@ -114,6 +117,11 @@ const Navbar = () => {
       {/* Social icons */}
       <div className={social ? "lg:flex fixed flex-col top-[35%] left-0" : "hidden lg:flex fixed flex-col top-[35%] left-0"}>
         <ul>
+        <button onClick={props.particleClick} className='w-[55px] ml-2 mb-10 h-[55px] flex lex  font-semibold rounded-full justify-center items-center text-orange-500 hover:text-white outline hover:outline-zinc-400 outline-orange-500 bg-[#1c1b1b]' >
+            
+             <HiOutlineSparkles size={social ? 20 : 30} />
+            
+          </button>
           <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'transform transition-all translate-x-24 duration-300': null} bg-blue-600` :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-blue-600"} >
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
