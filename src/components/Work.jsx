@@ -1,9 +1,12 @@
 import React from "react";
 import Twitter from "../assets/Twitter.png";
-
+import { BrowserView, MobileView} from 'react-device-detect';
 import Tesla from "../assets/tesla.png";
 import Traveler from "../assets/traveler.png";
 import Claut from "../assets/Claut.png";
+import ClautMobile from "../assets/ClautMobile.png";
+import TwitterMobile from "../assets/TwitterMobile.png"
+import TravelersMobile from "../assets/TravelersMobile.png"
 
 const Work = () => {
   return (
@@ -15,10 +18,9 @@ const Work = () => {
           </p>
           <p className="py-6">// Check out some of my recent work</p>
         </div>
-
-        {/*Container*/}
-
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 z-prop">
+        
+        {/*Browser Container*/}
+        <div className="lg:grid lg:grid-cols-2 gap-4 z-prop hidden">
           {/*Grid Item*/}
           <div
             style={{ backgroundImage: `url(${Tesla})`, backgroundSize: '550px' }}
@@ -31,12 +33,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://rp-tesla-clone.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/tesla-clone">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -53,14 +55,14 @@ const Work = () => {
               <span className="text-4xl justify-items-center font-bold text-[#1b1b18] tracking-wider">
                 Claut
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-6 text-center">
                 <a href="https://claut.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-5 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-5 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -79,12 +81,12 @@ const Work = () => {
               </span>
               <div className="pt-8 z-prop text-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
-                  <button className=" text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className=" text-center z-prop rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/twitter-clone">
-                  <button className="text-center z-prop rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center z-prop rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -101,14 +103,14 @@ const Work = () => {
               <span className="text-4xl font-bold text-[#1b1b18] tracking-wider">
                 Traveler's Oasis
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-6 text-center">
                 <a href="https://travelers-oasis.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-lg px-7 py-5 mt-6 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -116,6 +118,104 @@ const Work = () => {
             </div>
           </div>
         </div>
+        
+       
+        {/*Mobile Container*/}
+        <div className="grid  gap-4 z-prop lg:hidden">
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${Tesla})`, backgroundSize: '330px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px'}}
+            className="shadow-xl shadow-[#040c16]  container rounded-md justify-center items-center mx-auto"
+          >
+            <div className=" text-center">
+              <span className="text-2xl font-bold text-[#606060] tracking-wider">
+                Tesla Clone
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://rp-tesla-clone.netlify.app">
+                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/radosav-perisic/tesla-clone">
+                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${ClautMobile})`, backgroundSize: '380px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
+            className="shadow-xl shadow-[#040c16]  container rounded-md justify-center items-center mx-auto"
+          >
+            {/* Hover Effects */}
+            <div className="text-center">
+             
+              <div className="pt-8 text-center">
+                <a href="https://claut.netlify.app">
+                  <button className="text-center rounded-lg px-4 py-3 mt-32 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/radosav-perisic/claut">
+                  <button className="text-center rounded-lg px-4 py-3 mt-32 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${TwitterMobile})`,backgroundSize: '380px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
+            className="shadow-xl shadow-[#040c16]  container rounded-md justify-center items-center mx-auto"
+          >
+            {/* Hover Effects */}
+            <div className="text-center">
+              <span className="text-2xl font-bold text-[#606060] tracking-wider">
+                Twitter Clone
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://twitter-clone-alarmovski.vercel.app">
+                  <button className=" text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/radosav-perisic/twitter-clone">
+                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Grid Item*/}
+          <div
+            style={{ backgroundImage: `url(${TravelersMobile})`, backgroundSize: '400px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
+            className="shadow-xl shadow-[#040c16]  container rounded-md justify-center items-center mx-auto"
+          >
+            {/* Hover Effects */}
+            <div className="text-center">
+              <span className="text-2xl font-bold text-[#606060] tracking-wider">
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://travelers-oasis.netlify.app">
+                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/radosav-perisic/travelers-oasis">
+                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
       </div>  
   );
