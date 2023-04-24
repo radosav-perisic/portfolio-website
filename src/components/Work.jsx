@@ -57,7 +57,10 @@ const Work = () => {
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <span className="text-4xl justify-items-center font-bold text-[#1b1b18] tracking-wider">
                 Claut
-              </span>
+              </span>              
+              <p className="text-base font-semibold text-[#2e2e2a]">
+              Claut is a comprehensive cloud management platform that provides services such as app security, dashboard design, cloud data, and API services
+              </p>
               <div className="pt-6 text-center">
                 <a href="https://claut.netlify.app">
                   <button className="text-center rounded-lg px-5 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
