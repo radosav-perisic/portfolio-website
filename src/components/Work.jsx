@@ -62,12 +62,12 @@ const Work = () => {
               </p>
               <div className="pt-6 text-center">
                 <a href="https://claut.netlify.app">
-                  <button className="text-center rounded-lg px-5 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-lg px-5 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
@@ -115,7 +115,7 @@ const Work = () => {
               <p className="text-base mx-1 font-semibold text-[#2e2e2a]">
               Find your perfect oasis and book with ease using my app, built with React and Tailwind for a seamless user experience
               </p>
-              <div className="pt-6 text-center">
+              <div className="pt-8 text-center">
                 <a href="https://travelers-oasis.netlify.app">
                   <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
@@ -159,13 +159,13 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${ClautMobile})`, backgroundSize: '380px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
+            style={{ backgroundImage: `url(${ClautMobile})`, backgroundSize: '330px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
             className="shadow-xl shadow-[#040c16]  container rounded-md justify-center items-center mx-auto"
           >
             {/* Hover Effects */}
             <div className="text-center">
              
-              <div className="pt-8 text-center">
+              <div className="pt-12 text-center">
                 <a href="https://claut.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 mt-32 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
@@ -205,21 +205,19 @@ const Work = () => {
           </div>
           {/*Grid Item*/}
           <div
-            style={{ backgroundImage: `url(${TravelersMobile})`, backgroundSize: '400px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
+            style={{ backgroundImage: `url(${TravelersMobile})`, backgroundSize: '330px', backgroundPosition: 'top', backgroundRepeat: 'no-repeat', height: '250px' }}
             className="shadow-xl shadow-[#040c16]  container rounded-md justify-center items-center mx-auto"
           >
             {/* Hover Effects */}
             <div className="text-center">
-              <span className="text-2xl font-bold text-[#606060] tracking-wider">
-              </span>
-              <div className="pt-8 text-center">
+              <div className="pt-16 text-center">
                 <a href="https://travelers-oasis.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-5 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-lg px-4 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
+                  <button className="text-center rounded-lg px-5 py-3 mt-28 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
                     Code
                   </button>
                 </a>
