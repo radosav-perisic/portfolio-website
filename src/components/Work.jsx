@@ -85,6 +85,10 @@ const Work = () => {
               <span className="text-4xl z-prop font-bold text-[#1b1b18] tracking-wider">
                 Twitter Clone
               </span>
+              <p className="text-sm font-semibold text-[#2e2e2a]">
+              Experience the future of social media with my Twitter Clone app built with React.js, Next.js, Sanity CMS, Typescript, SSR, Tailwind, and NextAuth.
+              </p>
+
               <div className="pt-8 z-prop text-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
                   <button className=" text-center z-prop rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
