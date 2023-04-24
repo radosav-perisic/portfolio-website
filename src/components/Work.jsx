@@ -1,6 +1,5 @@
 import React from "react";
 import Twitter from "../assets/Twitter.png";
-import { BrowserView, MobileView} from 'react-device-detect';
 import Tesla from "../assets/tesla.png";
 import Traveler from "../assets/traveler.png";
 import Claut from "../assets/Claut.png";
