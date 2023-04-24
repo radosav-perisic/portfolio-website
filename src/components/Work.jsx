@@ -31,6 +31,9 @@ const Work = () => {
               <span className="text-4xl font-bold text-[#1b1b18] tracking-wider">
                 Tesla Clone
               </span>
+              <p className="text-lg font-semibold text-[#2e2e2a]">
+              Drive into the future with my cutting-edge Tesla Clone App created with React and Tailwind
+              </p>
               <div className="pt-8 text-center">
                 <a href="https://rp-tesla-clone.netlify.app">
                   <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
