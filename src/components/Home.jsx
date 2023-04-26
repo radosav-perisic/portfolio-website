@@ -12,19 +12,25 @@ function Home() {
       <div className="max-w-[1000px] lg:pt-10 mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#ca8a04] z-prop">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
-          Radosav Perisic 
+          Radosav Perisic
         </h1>
         <h2 className="text-4xl sm:text-7xl sm:text-left z-prop  font-bold text-[#bcbcb3] ">
-          I'm a React Front End Engineer. 
+          I'm a React Front End Engineer.
         </h2>
-    <Typed className="text-4xl sm:text-7xl font-bold z-prop text-[#8f6e19]"
-           strings={['Javascript', 'React', 'TypeScript', 'Tailwind' ]} typeSpeed={60} backSpeed={70} loop/>
+        <Typed
+          className="text-4xl sm:text-7xl font-bold z-prop text-[#8f6e19]"
+          strings={["Javascript", "React", "TypeScript", "Tailwind"]}
+          typeSpeed={60}
+          backSpeed={70}
+          loop
+        />
         <p className="text-[#adaf92] py-4 max-w-[700px] z-prop">
-        I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-bussiness all the
-              way to large enterprise corporations. What would you do if you had
-              a React front end Engineer available at your fingertips?
+          Creating outstanding software that improves the lives of people around
+          me is my driving passion. My area of expertise lies in developing
+          software solutions for clients of varying sizes, from individuals and
+          small businesses to large corporations. Consider the possibilities of
+          having a proficient React front-end engineer available at your
+          fingertips. What could you accomplish with such a valuable resource?
         </p>
         <div className="flex">
           <Link to="work" smooth={true} duration={800}>
@@ -37,7 +43,7 @@ function Home() {
           </Link>
         </div>
         <div className="hidden lg:flex justify-center items-center w-full text-gray-300">
-        <AltResumeButton />
+          <AltResumeButton />
         </div>
       </div>
     </div>
