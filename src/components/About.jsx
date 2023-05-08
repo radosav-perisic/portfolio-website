@@ -13,7 +13,7 @@ const About = () => {
               Hi. I'm Radosav, nice to meet you! Please take a look around.
             </p>
           </div>
-          <div className="z-prop">
+          <div className="z-prop  font-medium">
             <p>
               As a front-end engineer, I have abundant experience working with
           JavaScript, React.js, TypeScript, and Tailwind. With a deep understanding of both the theoretical and
