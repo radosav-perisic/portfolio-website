@@ -30,7 +30,7 @@ function Home() {
           software solutions for clients of varying sizes, from individuals and
           small businesses to large corporations. Consider the possibilities of
           having a proficient React front-end engineer available at your
-          fingertips. What could you accomplish with such a valuable resource?
+          fingertips. What kind of impact could we make together?
         </p>
         <div className="flex">
           <Link to="work" smooth={true} duration={800}>
