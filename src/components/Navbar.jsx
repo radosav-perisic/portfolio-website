@@ -26,7 +26,7 @@ const Navbar = (props) => {
   const resumeClickHandler = () => setResume(!resume);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 lg:bg-transparent bg-[#181818] shadow-lg text-gray-300 z-10">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 background-2 bg-[#181818] shadow-lg text-gray-300 z-10">
       <div>
         <img src={rp} alt="Logo Image" style={{ width: "145px"}} />
       </div>
