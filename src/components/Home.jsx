@@ -32,9 +32,9 @@ function Home() {
           having a proficient React front-end engineer available at your
           fingertips. What kind of impact could we make together?
         </p>
-        <div className="flex">
+        <div className="flex  z-prop">
           <Link to="work" smooth={true} duration={800}>
-            <button className=" text-white z-prop group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500 bg-[#202020]">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
