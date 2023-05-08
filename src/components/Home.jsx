@@ -14,7 +14,7 @@ function Home() {
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
           Radosav Perisic
         </h1>
-        <h2 className="text-4xl sm:text-7xl sm:text-left z-prop  font-bold text-[#bcbcb3] ">
+        <h2 className="text-4xl sm:text-7xl sm:text-left z-prop  font-bold text-[#ffffff] ">
           I'm a React Front End Engineer.
         </h2>
         <Typed
