@@ -115,9 +115,9 @@ const Navbar = (props) => {
       </ul>
 
       {/* Social icons */}
-      <div className={social ? "lg:flex fixed flex-col top-[35%] left-0" : "hidden lg:flex fixed flex-col top-[35%] left-0"}>
+      <div className={social ? "lg:flex fixed flex-col top-[25%] left-0" : "hidden lg:flex fixed flex-col top-[25%] left-0"}>
         <ul>
-        <button onClick={props.particleClick} className='w-[55px] ml-2 mb-10 h-[55px] flex lex  font-semibold rounded-full justify-center items-center text-orange-500 hover:text-white outline hover:outline-zinc-400 outline-orange-500 bg-[#1c1b1b] duration-300' >
+        <button onClick={props.particleClick} className='w-[50px] ml-2 mb-10 h-[50px] flex lex  font-semibold rounded-full justify-center items-center text-[#ca8a04] hover:text-white outline hover:outline-zinc-400 outline-[#ca8a04] background-particle duration-300' >
             
              <HiOutlineSparkles size={social ? 20 : 30} />
             
