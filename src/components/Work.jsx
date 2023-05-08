@@ -6,6 +6,7 @@ import Claut from "../assets/Claut.png";
 import ClautMobile from "../assets/ClautMobile.png";
 import TwitterMobile from "../assets/TwitterMobile.png";
 import TravelersMobile from "../assets/TravelersMobile.png";
+import {FaEye, FaCode} from 'react-icons/fa'
 
 const Work = () => {
   return (
@@ -33,25 +34,29 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <span className="text-4xl font-bold text-[#1b1b18] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
                 Tesla Clone
-              </span>
-              <p className="text-lg font-semibold text-[#2e2e2a]">
+              </h2>
+              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
                 Drive into the future with my cutting-edge Tesla Clone App
-                created with React and Tailwind
+                developed using React and Tailwind. This app features a modern
+                design, responsive interface, and scalable architecture.
               </p>
-              <div className="pt-8 text-center">
+              <div className="mt-2 flex justify-center items-center">
                 <a href="https://rp-tesla-clone.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Demo
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaEye className="icon-scale" />
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/tesla-clone">
-                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Code
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaCode className="icon-scale"/>
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
               </div>
+              
             </div>
           </div>
           {/*Grid Item*/}
@@ -62,26 +67,29 @@ const Work = () => {
             }}
             className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
+                           
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <span className="text-4xl justify-items-center font-bold text-[#1b1b18] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
                 Claut
-              </span>
-              <p className="text-base font-semibold text-[#2e2e2a]">
-                Claut is a comprehensive cloud management platform that provides
+              </h2>
+              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
+              Claut is a comprehensive cloud management platform that provides
                 services such as app security, dashboard design, cloud data, and
-                API services
+                API services.
               </p>
-              <div className="pt-6 text-center">
+              <div className="mt-8 flex justify-center items-center">
                 <a href="https://claut.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Demo
+                  <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaEye className="icon-scale" />
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Code
+                  <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaCode className="icon-scale"/>
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
               </div>
             </div>
@@ -96,25 +104,27 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
-              <span className="text-4xl z-prop font-bold text-[#1b1b18] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
                 Twitter Clone
-              </span>
-              <p className="text-sm font-semibold text-[#2e2e2a]">
+              </h2>
+              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
                 Experience the future of social media with my Twitter Clone app
                 built with React.js, Next.js, Sanity CMS, Typescript, SSR,
                 Tailwind, and NextAuth.
               </p>
 
-              <div className="pt-8 z-prop text-center">
+              <div className="mt-8 flex justify-center items-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
-                  <button className=" text-center z-prop rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Demo
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaEye className="icon-scale" />
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/twitter-clone">
-                  <button className="text-center z-prop rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Code
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaCode className="icon-scale"/>
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
               </div>
             </div>
@@ -129,23 +139,25 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <span className="text-4xl font-bold text-[#1b1b18] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
                 Traveler's Oasis
-              </span>
-              <p className="text-base mx-1 font-semibold text-[#2e2e2a]">
+              </h2>
+              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
                 Find your perfect oasis and book with ease using my app, built
-                with React and Tailwind for a seamless user experience
+                with React and Tailwind for a seamless user experience.
               </p>
-              <div className="pt-8 text-center">
+              <div className="mt-8 flex justify-center items-center">
                 <a href="https://travelers-oasis.netlify.app">
-                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Demo
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaEye className="icon-scale" />
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-lg px-7 py-5 mx-4 bg-[#2e2e2b] text-[#bcbcb3] font-bold text-2xl">
-                    Code
+                  <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                    <FaCode className="icon-scale"/>
                   </button>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
               </div>
             </div>
@@ -180,11 +192,10 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <p className="mt-[1.1rem] text-sm text-[#e3e3de]">
+                <p className="mt-[1.1rem] text-sm font-medium text-[#e3e3de]">
                   Drive into the future with my cutting-edge Tesla Clone App
-                  developed using React and Tailwind. This app
-                  features a modern design, responsive interface, and scalable
-                  architecture.
+                  developed using React and Tailwind. This app features a modern
+                  design, responsive interface, and scalable architecture.
                 </p>
               </div>
             </div>
@@ -216,7 +227,7 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <p className="mt-3 text-sm text-[#e3e3de]">
+                <p className="mt-3 text-sm font-medium text-[#e3e3de]">
                   Claut is a comprehensive cloud management platform that
                   provides services such as app security, dashboard design,
                   cloud data, and API services
@@ -251,7 +262,7 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <p className="mt-3.5 text-sm texrt text-[#e3e3de]">
+                <p className="mt-3.5 text-sm font-medium text-[#e3e3de]">
                   Experience the future of social media with my Twitter Clone
                   app built with React.js, Next.js, Sanity CMS, Typescript, SSR,
                   Tailwind, and NextAuth.
@@ -286,7 +297,7 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-                <p className="mt-3 text-sm text-[#e3e3de]">
+                <p className="mt-3 text-sm font-medium text-[#e3e3de]">
                   Find your perfect oasis and book with ease using my app, built
                   with React and Tailwind for a seamless user experience
                 </p>
