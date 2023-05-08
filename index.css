@@ -62,3 +62,8 @@
 .z-prop {
     z-index: 2;
 }
+
+button:hover .icon-scale {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+  }
