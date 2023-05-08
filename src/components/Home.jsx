@@ -24,7 +24,7 @@ function Home() {
           backSpeed={70}
           loop
         />
-        <p className="text-[#adaf92] py-4 max-w-[700px] z-prop">
+        <p className="text-[#ececdb] py-4 max-w-[700px] z-prop tracking-wide">
           Creating outstanding software that improves the lives of people around
           me is my driving passion. My area of expertise lies in developing
           software solutions for clients of varying sizes, from individuals and
