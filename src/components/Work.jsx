@@ -23,14 +23,14 @@ const Work = () => {
         </div>
 
         {/*Browser Container*/}
-        <div className="lg:grid lg:grid-cols-2 gap-4 z-prop hidden">
+        <div className="lg:grid lg:grid-cols-2 gap-16 z-prop hidden">
           {/*Grid Item*/}
           <div
             style={{
               backgroundImage: `url(${Tesla})`,
               backgroundSize: "550px",
             }}
-            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
@@ -65,7 +65,7 @@ const Work = () => {
               backgroundImage: `url(${Claut})`,
               backgroundSize: "480px",
             }}
-            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
                            
             {/* Hover Effects */}
@@ -100,7 +100,7 @@ const Work = () => {
               backgroundImage: `url(${Twitter})`,
               backgroundSize: "480px",
             }}
-            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
@@ -135,7 +135,7 @@ const Work = () => {
               backgroundImage: `url(${Traveler})`,
               backgroundSize: "480px",
             }}
-            className="shadow-xl shadow-[#040c16] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
