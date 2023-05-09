@@ -34,7 +34,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Tesla Clone
               </h2>
               <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
@@ -70,7 +70,7 @@ const Work = () => {
                            
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Claut
               </h2>
               <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
@@ -104,7 +104,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
-              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Twitter Clone
               </h2>
               <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
@@ -139,7 +139,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
-              <h2 className="text-4xl mt-1 font-bold text-[#d36f1e] tracking-wider">
+              <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Traveler's Oasis
               </h2>
               <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
