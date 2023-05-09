@@ -9,7 +9,7 @@ function Home() {
   return (
     <div name="home" className="w-full h-screen background">
       {/* Cointainer */}
-      <div className="max-w-[1000px] lg:pt-10 mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] lg:pt-10 mx-auto px-4 flex flex-col justify-center h-full">
         <p className="text-[#ca8a04] z-prop mt-8">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
           Radosav Perisic
