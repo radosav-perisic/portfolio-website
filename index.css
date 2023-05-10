@@ -25,7 +25,8 @@
     background-image: linear-gradient(
         to bottom,
         rgb(13, 13, 13),
-        hsl(60, 2%, 11%)
+        hsl(0, 0%, 13%),
+        hsl(60, 3%, 17%)
     )!important;
 }
 
@@ -52,6 +53,14 @@
         hsl(0, 0%, 6%)
     )!important;
 }
+
+.background-altresume {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(191, 86, 6),
+        hsl(11, 100%, 48%)
+    )!important;
+  }
 
 .particles-div {
     position:fixed;
