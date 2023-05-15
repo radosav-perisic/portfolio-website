@@ -44,13 +44,13 @@ const Work = () => {
               </p>
               <div className="mt-2 flex justify-center items-center">
                 <a href="https://rp-tesla-clone.netlify.app">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaEye className="icon-scale" />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/tesla-clone">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaCode className="icon-scale"/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
@@ -73,20 +73,20 @@ const Work = () => {
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Claut
               </h2>
-              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
+              <p className="text-base tracking-wider font-normal mx-2.5 mt-1.5 text-[#d6d6d2]">
               Claut is a comprehensive cloud management platform that provides
                 services such as app security, dashboard design, cloud data, and
                 API services.
               </p>
               <div className="mt-8 flex justify-center items-center">
                 <a href="https://claut.netlify.app">
-                  <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                  <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaEye className="icon-scale" />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                  <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaCode className="icon-scale"/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
@@ -107,7 +107,7 @@ const Work = () => {
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Twitter Clone
               </h2>
-              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
+              <p className="text-base tracking-wider font-normal mx-3 mt-1.5 text-[#d6d6d2]">
                 Experience the future of social media with my Twitter Clone app
                 built with React.js, Next.js, Sanity CMS, Typescript, SSR,
                 Tailwind, and NextAuth.
@@ -115,13 +115,13 @@ const Work = () => {
 
               <div className="mt-8 flex justify-center items-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaEye className="icon-scale" />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/twitter-clone">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaCode className="icon-scale"/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
@@ -142,19 +142,19 @@ const Work = () => {
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Traveler's Oasis
               </h2>
-              <p className="text-base tracking-wider font-normal mx-2 mt-1.5 text-[#d6d6d2]">
+              <p className="text-base tracking-wider font-normal mx-3 mt-1.5 text-[#d6d6d2]">
                 Find your perfect oasis and book with ease using my app, built
                 with React and Tailwind for a seamless user experience.
               </p>
               <div className="mt-8 flex justify-center items-center">
                 <a href="https://travelers-oasis.netlify.app">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaEye className="icon-scale" />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-full px-4 py-4 mx-5 border-2 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
+                  <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
                     <FaCode className="icon-scale"/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
