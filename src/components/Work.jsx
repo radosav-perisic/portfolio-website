@@ -45,7 +45,7 @@ const Work = () => {
               <div className="mt-2 flex justify-center items-center">
                 <a href="https://rp-tesla-clone.netlify.app">
                 <button className="text-center rounded-full px-4 py-4 mx-5 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                    <FaEye className="icon-scale " />
+                    <FaEye className="icon-scale" />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide text-[#ffffff]">Demo</p>
                 </a>
@@ -181,23 +181,26 @@ const Work = () => {
             className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
           >
             <div className=" text-center">
-              <div className="pt-8 text-center">
+              <div className="pt-[77px] mt-8 flex justify-center items-center">
                 <a href="https://rp-tesla-clone.netlify.app">
-                  <button className="text-center rounded-lg px-[0.4rem]  mt-[5.5rem] mr-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Demo
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/tesla-clone">
-                  <button className="text-center rounded-lg px-[0.4rem] mt-[5.5rem] ml-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Code
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Code</p>
                 </a>
-                <p className="mt-[1.1rem] text-sm font-medium text-[#e3e3de]">
+                </div>
+                <p className="mt-[0.2rem] text-sm font-medium text-[#e3e3de]">
                   Drive into the future with my cutting-edge Tesla Clone App
                   developed using React and Tailwind. This app features a modern
                   design, responsive interface, and scalable architecture.
                 </p>
-              </div>
+              
             </div>
           </div>
           {/*Grid Item*/}
@@ -216,24 +219,27 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="text-center">
-              <div className="pt-12 text-center">
+              <div className="pt-[77px] mt-8 flex justify-center items-center">
                 <a href="https://claut.netlify.app">
-                  <button className=" text-center rounded-lg px-[0.4rem]  mt-[5rem] mr-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Demo
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-lg px-[0.4rem] mt-[5rem] ml-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Code
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Code</p>
                 </a>
-                <p className="mt-3 text-sm font-medium text-[#e3e3de]">
+                </div>
+                <p className="mt-1.5 text-sm font-medium text-[#e3e3de]">
                   Claut is a comprehensive cloud management platform that
                   provides services such as app security, dashboard design,
                   cloud data, and API services
                 </p>
               </div>
-            </div>
+            
           </div>
           {/*Grid Item*/}
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider ">
@@ -251,25 +257,28 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="text-center">
-              <div className="pt-[3.5rem] text-center">
+              <div className="pt-[63px] mt-8 flex justify-center items-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
-                  <button className=" text-center rounded-lg px-[0.4rem]  mt-[3.3rem] mr-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Demo
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/twitter-clone">
-                  <button className="text-center rounded-lg px-[0.4rem] mt-[3.3rem] ml-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Code
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Code</p>
                 </a>
-                <p className="mt-3.5 text-sm font-medium text-[#e3e3de]">
+                </div>
+                <p className="mt-1.5 tracking-wide text-sm font-medium text-[#e3e3de]">
                   Experience the future of social media with my Twitter Clone
                   app built with React.js, Next.js, Sanity CMS, Typescript, SSR,
                   Tailwind, and NextAuth.
                 </p>
               </div>
             </div>
-          </div>
+         
           {/*Grid Item*/}
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
             Traveler's Oasis
@@ -286,22 +295,25 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="text-center">
-              <div className="pt-16 text-center">
+              <div className="pt-[80px] mt-8 flex justify-center items-center">
                 <a href="https://travelers-oasis.netlify.app">
-                  <button className="text-center rounded-lg px-[0.4rem] py-[0.13rem] mt-[3.8rem] mr-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Demo
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-lg px-[0.4rem] py-[0.13rem] mt-[3.8rem] ml-[1rem] bg-[#bc7e48] text-[#ffffff] font-bold text-xl">
-                    Code
+                <button className="text-center rounded-full px-2 py-0.5 mx-6 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale " size={20}/>
                   </button>
+                  <p className="justify-center flex flex-wrap text-xs tracking-wide">Code</p>
                 </a>
-                <p className="mt-3 text-sm font-medium text-[#e3e3de]">
+                </div>
+                <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
                   Find your perfect oasis and book with ease using my app, built
                   with React and Tailwind for a seamless user experience
                 </p>
-              </div>
+             
             </div>
           </div>
         </div>
