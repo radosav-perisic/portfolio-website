@@ -30,7 +30,7 @@ const Work = () => {
               backgroundImage: `url(${Tesla})`,
               backgroundSize: "550px",
             }}
-            className="shadow-lg hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className="shadow-lg  hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
@@ -44,16 +44,16 @@ const Work = () => {
               </p>
               <div className="mt-2 flex justify-center items-center">
                 <a href="https://rp-tesla-clone.netlify.app">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaEye className="icon-scale" />
+                <button className="text-center rounded-full px-4 py-4 mx-5 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " />
                   </button>
-                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide text-[#ffffff]">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/tesla-clone">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaCode className="icon-scale"/>
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 text-[#cd6215] hover:text-white hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale "/>
                   </button>
-                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
+                  <p className="justify-center flex flex-wrap mt-0.5 tracking-wide text-[#ffffff]">Code</p>
                 </a>
               </div>
               
@@ -80,14 +80,14 @@ const Work = () => {
               </p>
               <div className="mt-8 flex justify-center items-center">
                 <a href="https://claut.netlify.app">
-                  <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaEye className="icon-scale" />
+                <button className="text-center rounded-full px-4 py-4 mx-5 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaCode className="icon-scale"/>
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 text-[#cd6215] hover:text-white hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale "/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
@@ -115,14 +115,14 @@ const Work = () => {
 
               <div className="mt-8 flex justify-center items-center">
                 <a href="https://twitter-clone-alarmovski.vercel.app">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaEye className="icon-scale" />
+                <button className="text-center rounded-full px-4 py-4 mx-5 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/twitter-clone">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaCode className="icon-scale"/>
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 text-[#cd6215] hover:text-white hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale "/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
@@ -148,14 +148,14 @@ const Work = () => {
               </p>
               <div className="mt-8 flex justify-center items-center">
                 <a href="https://travelers-oasis.netlify.app">
-                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaEye className="icon-scale" />
+                <button className="text-center rounded-full px-4 py-4 mx-5 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " />
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Demo</p>
                 </a>
                 <a href="https://github.com/radosav-perisic/travelers-oasis">
-                  <button className="text-center rounded-full px-4 py-4 mx-5 border-4 hover:bg-[#cd6215] duration-300 text-[#ffffff] font-bold text-2xl">
-                    <FaCode className="icon-scale"/>
+                <button className="text-center rounded-full px-4 py-4 mx-5 border-4 text-[#cd6215] hover:text-white hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale "/>
                   </button>
                   <p className="justify-center flex flex-wrap mt-0.5 tracking-wide">Code</p>
                 </a>
