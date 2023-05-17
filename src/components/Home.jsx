@@ -34,10 +34,10 @@ function Home() {
         </p>
         <div className="flex  z-prop">
           <Link to="work" smooth={true} duration={800}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500 bg-[#202020]">
+            <button className="text-[#ca8a04] hover:text-white font-semibold tracking-wide group border-[3px] px-5 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500 bg-[#202020]">
               View Work
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
+              <span className="group-hover:rotate-90 text-white duration-300">
+                <HiArrowNarrowRight className="ml-3" size={20} />
               </span>
             </button>
           </Link>
