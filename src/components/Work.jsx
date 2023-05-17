@@ -28,7 +28,7 @@ const Work = () => {
           <div
             style={{
               backgroundImage: `url(${Tesla})`,
-              backgroundSize: "550px",
+              backgroundSize: "520px",
             }}
             className="  hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-105 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
