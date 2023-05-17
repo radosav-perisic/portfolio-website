@@ -3,12 +3,12 @@ const About = () => {
     <div name="about" className="w-full h-screen background-2 text-[#bcbcb3]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="sm:text-right pb-8 pl-4 z-prop">
-          <p className="text-4xl font-bold inline border-b-4 text-[#bcbcb3] border-[#ca8a04]">
+          <p className="text-4xl font-bold inline border-b-4 text-[#f1eeee] border-[#ca8a04]">
             About
           </p>
         </div>
         <div className="max-w-[1300px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="sm:text-right lg:text-5xl text-4xl font-bold z-prop">
+          <div className="sm:text-right lg:text-5xl text-4xl font-bold z-prop text-[#f1eeee]">
             <p>
               Hi. I'm Radosav, nice to meet you! Please take a look around.
             </p>
