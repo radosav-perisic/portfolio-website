@@ -24,19 +24,19 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center font-semibold z-prop py-8">
-          <div className="shadow-lg z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 shadow-[#040c16]  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
             <img className="w-24 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="pt-4 text-xl">React</p>
           </div>
-          <div className="shadow-lg z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 shadow-[#040c16]  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
             <img className="w-24 mx-auto" src={Typescript} alt="HTML icon" />
             <p className="pt-4 text-xl">Typescript</p>
           </div>
-          <div className="shadow-lg z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 shadow-[#040c16]  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
             <img className="w-24 mx-auto" src={Tailwind} alt="HTML icon" />
             <p className="pt-4 text-xl">Tailwind</p>
           </div>
-          <div className="shadow-lg z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 shadow-[#040c16]  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
             <img
               className="w-24 mx-auto z-prop"
               src={Javascript}
@@ -44,11 +44,11 @@ const Skills = () => {
             />
             <p className="pt-4 z-prop text-xl">Javascript</p>
           </div>
-          <div className="shadow-lg z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 shadow-[#040c16]  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
             <img className="w-24 mx-auto" src={HTML} alt="HTML icon" />
             <p className="pt-4 z-prop text-xl">HTML</p>
           </div>
-          <div className="shadow-lg z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 shadow-[#040c16]  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
             <img className="w-24 mx-auto" src={CSS} alt="HTML icon" />
             <p className="pt-4 text-xl">CSS</p>
           </div>
