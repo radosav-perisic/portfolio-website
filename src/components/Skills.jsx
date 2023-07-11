@@ -24,33 +24,33 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center font-semibold z-prop py-8">
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
-            <img className="w-24 mx-auto" src={ReactImg} alt="HTML icon" />
-            <p className="pt-4 text-xl">React</p>
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-24 mx-auto md:pt-0 pt-3" src={ReactImg} alt="HTML icon" />
+            <p className="py-2 text-xl">React</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
-            <img className="w-24 mx-auto" src={Typescript} alt="HTML icon" />
-            <p className="pt-4 text-xl">Typescript</p>
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-24 mx-auto md:pt-0 pt-3" src={Typescript} alt="HTML icon" />
+            <p className="py-2 text-xl">Typescript</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
-            <img className="w-24 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="pt-4 text-xl">Tailwind</p>
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-24 mx-auto md:pt-0 pt-3" src={Tailwind} alt="HTML icon" />
+            <p className="py-2 text-xl">Tailwind</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
             <img
-              className="w-24 mx-auto z-prop"
+              className="w-24 mx-auto md:pt-0 pt-3 z-prop"
               src={Javascript}
               alt="HTML icon"
             />
-            <p className="pt-4 z-prop text-xl">Javascript</p>
+            <p className="py-2 z-prop text-xl">Javascript</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
-            <img className="w-24 mx-auto" src={HTML} alt="HTML icon" />
-            <p className="pt-4 z-prop text-xl">HTML</p>
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-24 mx-auto md:pt-0 pt-3" src={HTML} alt="HTML icon" />
+            <p className="py-2 z-prop text-xl">HTML</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2  duration-500">
-            <img className="w-24 mx-auto" src={CSS} alt="HTML icon" />
-            <p className="pt-4 text-xl">CSS</p>
+          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-24 mx-auto md:pt-0 pt-3" src={CSS} alt="HTML icon" />
+            <p className="py-2 text-xl">CSS</p>
           </div>
         </div>
       </div>
