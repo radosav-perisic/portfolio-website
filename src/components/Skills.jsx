@@ -1,6 +1,6 @@
 import React from "react";
 import CSS from "../assets/css.png";
-import HTML from "../assets/html.png";
+import git from "../assets/git.png";
 import Javascript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
@@ -45,8 +45,8 @@ const Skills = () => {
             <p className="py-2 z-prop text-xl">Javascript</p>
           </div>
           <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
-            <img className="w-24 mx-auto md:pt-0 pt-3" src={HTML} alt="HTML icon" />
-            <p className="py-2 z-prop text-xl">HTML</p>
+            <img className="w-24 mx-auto md:pt-0 pt-3" src={git} alt="HTML icon" />
+            <p className="py-2 z-prop text-xl">Git</p>
           </div>
           <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
             <img className="w-24 mx-auto md:pt-0 pt-3" src={CSS} alt="HTML icon" />
