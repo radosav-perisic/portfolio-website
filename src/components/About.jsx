@@ -8,11 +8,11 @@ const About = () => {
           </p>
         </div>
         <div className="max-w-[1300px] w-full px-4 grid sm:grid-cols-2 gap-8">
-          <div className="sm:text-right md:text-[55px] md:tracking-wide lg:text-5xl text-4xl font-bold z-prop text-[#f1eeee]">
+          <div className="sm:text-right md:text-[55px] md:tracking-wide lg:text-5xl text-[34px] leading-8 font-bold z-prop text-[#f1eeee]">
             <p>
-              Hi. I'm Radosav, nice to meet you! Please take a look around.
+            Hey there, I'm Radosav! It's a pleasure to connect with you. Go ahead and have a look around.
             </p>
-          </div>
+          </div>    
           <div className="z-prop text-[#d0d0c5] font-semibold text-lg">
             <p>
               As a front-end engineer, I have abundant experience working with
