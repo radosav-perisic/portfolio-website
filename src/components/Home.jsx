@@ -10,7 +10,7 @@ function Home() {
     <div name="home" className="w-full h-screen background">
       {/* Cointainer */}
       <div className="max-w-[1000px] lg:pt-10 mx-auto px-4 flex flex-col justify-center h-full">
-        <p className="text-[#ca8a04] z-prop mt-8">Hi, my name is</p>
+        <p className="text-[#ca8a04] z-prop mt-16 md:mt-8">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
           Radosav Perisic
         </h1>
@@ -18,7 +18,7 @@ function Home() {
           I'm a React Front End Engineer.
         </h2>
         <Typed
-          className="text-[2.5rem] md:text-7xl font-bold typed z-prop uppercase mt-6 mb-3 text-[#ecba06ea]"
+          className="text-[2.5rem] md:text-7xl font-bold typed z-prop uppercase lg:mt-6 lg:mb-3 text-[#ecba06ea]"
           strings={["Javascript", "React", "TypeScript", "Tailwind"]}
           typeSpeed={60}
           backSpeed={70}
