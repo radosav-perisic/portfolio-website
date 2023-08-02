@@ -1,78 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-    body {
-        @apply font-[Raleway];
-    }
-    li {
-        @apply px-4;
-        @apply cursor-pointer
-    }
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+@font-face {
+  font-family: 'Wallpoet';
+  src: url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
+}
+.typed {
+    font-family: 'Wallpoet';
 }
 
 .content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to bottom,
-        rgb(13, 13, 13),
-        hsl(0, 0%, 13%),
-        hsl(60, 3%, 17%)
-    )!important;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(13, 13, 13),
+    hsl(0, 0%, 13%),
+    hsl(60, 3%, 17%)
+  ) !important;
 }
 
 .background {
-    background-image: linear-gradient(
-        to top,
-        rgb(38, 38, 38),
-        hsl(0, 0%, 6%)
-    )!important;
+  background-image: linear-gradient(
+    to top,
+    rgb(38, 38, 38),
+    hsl(0, 0%, 6%)
+  ) !important;
 }
 
 .background-particle {
-    background-image: linear-gradient(
-        to bottom   ,
-        rgb(82, 81, 81),
-        hsl(0, 0%, 0%)
-    )!important;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(82, 81, 81),
+    hsl(0, 0%, 0%)
+  ) !important;
 }
 
 .background-2 {
-    background-image: linear-gradient(
-        to bottom,
-        rgb(38, 38, 38),
-        hsl(0, 0%, 6%)
-    )!important;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(38, 38, 38),
+    hsl(0, 0%, 6%)
+  ) !important;
 }
 
 .background-altresume {
-    background-image: linear-gradient(
-        to bottom,
-        rgb(191, 86, 6),
-        hsl(11, 100%, 48%)
-    )!important;
-  }
+  background-image: linear-gradient(
+    to bottom,
+    rgb(191, 86, 6),
+    hsl(11, 100%, 48%)
+  ) !important;
+}
 
 .particles-div {
-    position:fixed;
-    width: 100%;
-    z-index: 1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .z-prop {
-    z-index: 2;
+  z-index: 2;
 }
 
 button:hover .icon-scale {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
-  }
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}

@@ -18,7 +18,7 @@ function Home() {
           I'm a React Front End Engineer.
         </h2>
         <Typed
-          className="text-4xl sm:text-7xl font-bold z-prop text-[#8f6e19]"
+          className="text-5xl md:text-7xl font-bold typed z-prop uppercase mt-6 mb-3 text-[#ecba06ea]"
           strings={["Javascript", "React", "TypeScript", "Tailwind"]}
           typeSpeed={60}
           backSpeed={70}
