@@ -181,6 +181,47 @@ const Work = () => {
 
         {/*Mobile Container*/}
         <div className="grid gap-2 z-prop lg:hidden">
+              {/*Grid Item*/}
+              <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
+                Creative Wood
+              </h3>
+              <div
+                style={{
+                  backgroundImage: `url(${creativewood})`,
+                  backgroundSize: "330px",
+                  backgroundPosition: "top",
+                  backgroundRepeat: "no-repeat",
+                  height: "250px",
+                }}
+                className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
+              >
+                {/* Hover Effects */}
+                <div className="text-center">
+                  <div className="pt-[80px] mt-8 flex justify-center items-center">
+                    <a href="https://creativewood.store">
+                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                        <FaEye className="icon-scale " size={20} />
+                      </button>
+                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                        Live
+                      </p>
+                    </a>
+                    <a href="https://github.com/radosav-perisic/creative-wood">
+                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                        <FaCode className="icon-scale " size={20} />
+                      </button>
+                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                        Code
+                      </p>
+                    </a>
+                  </div>
+                  <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
+                  Creative Wood is your go-to ecommerce store for laser-cut wooden
+                    products. Explore our collection of mesmerizing anime LED lamps,
+                    versatile LED lamps, and stylish wall clocks.
+                  </p>
+                </div>
+              </div>
           {/*Grid Item*/}
           <h3 className="text-3xl mb- text-center font-bold text-[#e3e3de] tracking-wider">
             Tesla Clone
@@ -221,6 +262,47 @@ const Work = () => {
               </p>
             </div>
           </div>
+              {/*Grid Item*/}
+              <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider ">
+                Twitter Clone
+              </h3>
+              <div
+                style={{
+                  backgroundImage: `url(${TwitterMobile})`,
+                  backgroundSize: "330px",
+                  backgroundPosition: "top",
+                  backgroundRepeat: "no-repeat",
+                  height: "250px",
+                }}
+                className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
+              >
+                {/* Hover Effects */}
+                <div className="text-center">
+                  <div className="pt-[63px] mt-8 flex justify-center items-center">
+                    <a href="https://twitter-clone-alarmovski.vercel.app">
+                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                        <FaEye className="icon-scale " size={20} />
+                      </button>
+                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                        Live
+                      </p>
+                    </a>
+                    <a href="https://github.com/radosav-perisic/twitter-clone">
+                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                        <FaCode className="icon-scale " size={20} />
+                      </button>
+                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                        Code
+                      </p>
+                    </a>
+                  </div>
+                  <p className="mt-1.5 tracking-wide text-sm font-medium text-[#e3e3de]">
+                    Experience the future of social media with my Twitter Clone app
+                    built with React.js, Next.js, Sanity CMS, Typescript, SSR,
+                    Tailwind, and NextAuth.
+                  </p>
+                </div>
+              </div>
           {/*Grid Item*/}
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
             Claut
@@ -262,89 +344,7 @@ const Work = () => {
               </p>
             </div>
           </div>
-          {/*Grid Item*/}
-          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider ">
-            Twitter Clone
-          </h3>
-          <div
-            style={{
-              backgroundImage: `url(${TwitterMobile})`,
-              backgroundSize: "330px",
-              backgroundPosition: "top",
-              backgroundRepeat: "no-repeat",
-              height: "250px",
-            }}
-            className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
-          >
-            {/* Hover Effects */}
-            <div className="text-center">
-              <div className="pt-[63px] mt-8 flex justify-center items-center">
-                <a href="https://twitter-clone-alarmovski.vercel.app">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                    <FaEye className="icon-scale " size={20} />
-                  </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                    Live
-                  </p>
-                </a>
-                <a href="https://github.com/radosav-perisic/twitter-clone">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                    <FaCode className="icon-scale " size={20} />
-                  </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                    Code
-                  </p>
-                </a>
-              </div>
-              <p className="mt-1.5 tracking-wide text-sm font-medium text-[#e3e3de]">
-                Experience the future of social media with my Twitter Clone app
-                built with React.js, Next.js, Sanity CMS, Typescript, SSR,
-                Tailwind, and NextAuth.
-              </p>
-            </div>
-          </div>
 
-          {/*Grid Item*/}
-          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
-            Creative Wood
-          </h3>
-          <div
-            style={{
-              backgroundImage: `url(${creativewood})`,
-              backgroundSize: "330px",
-              backgroundPosition: "top",
-              backgroundRepeat: "no-repeat",
-              height: "250px",
-            }}
-            className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
-          >
-            {/* Hover Effects */}
-            <div className="text-center">
-              <div className="pt-[80px] mt-8 flex justify-center items-center">
-                <a href="https://creativewood.store">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                    <FaEye className="icon-scale " size={20} />
-                  </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                    Live
-                  </p>
-                </a>
-                <a href="https://github.com/radosav-perisic/creative-wood">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                    <FaCode className="icon-scale " size={20} />
-                  </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                    Code
-                  </p>
-                </a>
-              </div>
-              <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
-              Creative Wood is your go-to ecommerce store for laser-cut wooden
-                products. Explore our collection of mesmerizing anime LED lamps,
-                versatile LED lamps, and stylish wall clocks.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
