@@ -24,8 +24,7 @@ const Work = () => {
         {/*Browser Container*/}
         <div className="lg:grid lg:grid-cols-2 gap-16 z-prop hidden">
           {/*Grid Item*/}
-           {/*Grid Item*/}
-           <div
+          <div
             style={{
               backgroundImage: `url(${creativewood})`,
               backgroundSize: "480px",
@@ -99,7 +98,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-        
+
           {/*Grid Item*/}
           <div
             style={{
@@ -139,8 +138,8 @@ const Work = () => {
               </div>
             </div>
           </div>
-           {/*Grid Item*/}
-           <div
+          {/*Grid Item*/}
+          <div
             style={{
               backgroundImage: `url(${Claut})`,
               backgroundSize: "480px",
@@ -181,170 +180,184 @@ const Work = () => {
 
         {/*Mobile Container*/}
         <div className="grid gap-2 z-prop lg:hidden">
-              {/*Grid Item*/}
-              <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
-                Creative Wood
-              </h3>
-              <div
-                style={{
-                  backgroundImage: `url(${creativewood})`,
-                  backgroundSize: "330px",
-                  backgroundPosition: "top",
-                  backgroundRepeat: "no-repeat",
-                  height: "250px",
-                }}
-                className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
-              >
-                {/* Hover Effects */}
-                <div className="text-center">
-                  <div className="pt-[80px] mt-8 flex justify-center items-center">
-                    <a href="https://creativewood.store">
-                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                        <FaEye className="icon-scale " size={20} />
-                      </button>
-                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                        Live
-                      </p>
-                    </a>
-                    <a href="https://github.com/radosav-perisic/creative-wood">
-                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                        <FaCode className="icon-scale " size={20} />
-                      </button>
-                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                        Code
-                      </p>
-                    </a>
-                  </div>
-                  <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
-                  Creative Wood is your go-to ecommerce store for laser-cut wooden
-                    products. Explore our collection of mesmerizing anime LED lamps,
-                    versatile LED lamps, and stylish wall clocks.
-                  </p>
-                </div>
-              </div>
           {/*Grid Item*/}
-          <h3 className="text-3xl mb- text-center font-bold text-[#e3e3de] tracking-wider">
-            Tesla Clone
+          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
+            Creative Wood
           </h3>
-          <div
-            style={{
-              backgroundImage: `url(${Tesla})`,
-              backgroundSize: "330px",
-              backgroundPosition: "top",
-              backgroundRepeat: "no-repeat",
-              height: "250px",
-            }}
-            className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
-          >
-            <div className=" text-center">
-              <div className="pt-[77px] mt-8 flex justify-center items-center">
-                <a href="https://rp-tesla-clone.netlify.app">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+            {/* Image */}
+            <div
+              style={{
+                backgroundImage: `url(${creativewood})`,
+                backgroundSize: "330px",
+                backgroundPosition: "top",
+                backgroundRepeat: "no-repeat",
+                height: "160px",
+                width: "100%",
+                // Optional: adjust border radius for appearance
+              }}
+            ></div>
+
+            {/* Text and Buttons */}
+            <div className="text-center flex flex-col justify-center items-center w-50%">
+              <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
+                Creative Wood is your go-to ecommerce store for laser-cut wooden
+                products. Explore our collection of mesmerizing anime LED lamps,
+                versatile LED lamps, and stylish wall clocks.
+              </p>
+              <div className=" mt-2 flex justify-center items-center mb-1">
+                <a href="https://creativewood.store">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
                     <FaEye className="icon-scale " size={20} />
                   </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
                     Live
                   </p>
                 </a>
-                <a href="https://github.com/radosav-perisic/tesla-clone">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                <a href="https://github.com/radosav-perisic/creative-wood">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
                     <FaCode className="icon-scale " size={20} />
                   </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
                     Code
                   </p>
                 </a>
               </div>
-              <p className="mt-[0.2rem] text-sm font-medium text-[#e3e3de]">
+            </div>
+          </div>
+
+          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
+            Tesla Clone
+          </h3>
+          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+            {/* Image */}
+            <div
+              style={{
+                backgroundImage: `url(${Tesla})`,
+                backgroundSize: "330px",
+                backgroundPosition: "top",
+                backgroundRepeat: "no-repeat",
+                height: "160px",
+                width: "100%",
+                // Optional: adjust border radius for appearance
+              }}
+            ></div>
+
+            {/* Text and Buttons */}
+            <div className="text-center flex flex-col justify-center items-center w-50%">
+              <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
                 Drive into the future with my cutting-edge Tesla Clone App
                 developed using React and Tailwind. This app features a modern
                 design, responsive interface, and scalable architecture.
               </p>
-            </div>
-          </div>
-              {/*Grid Item*/}
-              <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider ">
-                Twitter Clone
-              </h3>
-              <div
-                style={{
-                  backgroundImage: `url(${TwitterMobile})`,
-                  backgroundSize: "330px",
-                  backgroundPosition: "top",
-                  backgroundRepeat: "no-repeat",
-                  height: "250px",
-                }}
-                className="shadow-xl shadow-[#040c16] mb-20 container rounded-md justify-center items-center mx-auto"
-              >
-                {/* Hover Effects */}
-                <div className="text-center">
-                  <div className="pt-[63px] mt-8 flex justify-center items-center">
-                    <a href="https://twitter-clone-alarmovski.vercel.app">
-                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                        <FaEye className="icon-scale " size={20} />
-                      </button>
-                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                        Live
-                      </p>
-                    </a>
-                    <a href="https://github.com/radosav-perisic/twitter-clone">
-                      <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
-                        <FaCode className="icon-scale " size={20} />
-                      </button>
-                      <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
-                        Code
-                      </p>
-                    </a>
-                  </div>
-                  <p className="mt-1.5 tracking-wide text-sm font-medium text-[#e3e3de]">
-                    Experience the future of social media with my Twitter Clone app
-                    built with React.js, Next.js, Sanity CMS, Typescript, SSR,
-                    Tailwind, and NextAuth.
-                  </p>
-                </div>
-              </div>
-          {/*Grid Item*/}
-          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
-            Claut
-          </h3>
-          <div
-            style={{
-              backgroundImage: `url(${ClautMobile})`,
-              backgroundSize: "340px",
-              backgroundPosition: "top",
-              backgroundRepeat: "no-repeat",
-              height: "250px",
-            }}
-            className="shadow-xl shadow-[#040c16] mb-20  container rounded-md justify-center items-center mx-auto"
-          >
-            {/* Hover Effects */}
-            <div className="text-center">
-              <div className="pt-[77px] mt-9 flex justify-center items-center">
-                <a href="https://claut.netlify.app">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+              <div className=" mt-2 flex justify-center items-center mb-1">
+                <a href="https://rp-tesla-clone.netlify.app">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
                     <FaEye className="icon-scale " size={20} />
                   </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
                     Live
                   </p>
                 </a>
-                <a href="https://github.com/radosav-perisic/claut">
-                  <button className="text-center rounded-full px-2 py-0.5 mx-6 bg-white/100 border-[#cd6215] text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                <a href="https://github.com/radosav-perisic/tesla-clone">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
                     <FaCode className="icon-scale " size={20} />
                   </button>
-                  <p className="justify-center flex flex-wrap text-xs text-[#cd6215] tracking-wide">
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
                     Code
                   </p>
                 </a>
               </div>
-              <p className="mt-0.5 text-sm font-medium text-[#e3e3de]">
-                Claut is a comprehensive cloud management platform that provides
-                services such as app security, dashboard design, cloud data, and
-                API services
-              </p>
             </div>
           </div>
+          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
+            Twitter Clone
+          </h3>
+          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+            {/* Image */}
+            <div
+              style={{
+                backgroundImage: `url(${TwitterMobile})`,
+                backgroundSize: "330px",
+                backgroundPosition: "top",
+                backgroundRepeat: "no-repeat",
+                height: "150px",
+                width: "100%",
+                // Optional: adjust border radius for appearance
+              }}
+            ></div>
 
+            {/* Text and Buttons */}
+            <div className="text-center flex flex-col justify-center items-center w-50%">
+              <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
+                Drive into the future with my cutting-edge Tesla Clone App
+                developed using React and Tailwind. This app features a modern
+                design, responsive interface, and scalable architecture.
+              </p>
+              <div className=" mt-2 flex justify-center items-center mb-1">
+                <a href="https://twitter-clone-alarmovski.vercel.app">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " size={20} />
+                  </button>
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
+                    Live
+                  </p>
+                </a>
+                <a href="https://github.com/radosav-perisic/twitter-clone">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale " size={20} />
+                  </button>
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
+                    Code
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
+            Claut
+          </h3>
+          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+            {/* Image */}
+            <div
+              style={{
+                backgroundImage: `url(${Claut})`,
+                backgroundSize: "330px",
+                backgroundPosition: "top",
+                backgroundRepeat: "no-repeat",
+                height: "160px",
+                width: "100%",
+                // Optional: adjust border radius for appearance
+              }}
+            ></div>
+
+            {/* Text and Buttons */}
+            <div className="text-center flex flex-col justify-center items-center w-50%">
+              <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
+              Claut is a comprehensive cloud management platform that provides
+                services such as app security, dashboard design, cloud data, and
+                API services.
+              </p>
+              <div className=" mt-2 flex justify-center items-center mb-1">
+                <a href="https://claut.netlify.app">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaEye className="icon-scale " size={20} />
+                  </button>
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
+                    Live
+                  </p>
+                </a>
+                <a href="https://github.com/radosav-perisic/claut">
+                  <button className="text-center rounded-full p-2.5 mx-6 bg-[#cd6215] border-white text-white hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
+                    <FaCode className="icon-scale " size={20} />
+                  </button>
+                  <p className="justify-center flex flex-wrap text-xs text-white tracking-wide">
+                    Code
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
