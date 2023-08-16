@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="w-full h-28 flex items-center justify-center bg-[#141413] px-6 text-white">
       
-      <div className="flex space-x-10 items-center">
+      <div className="flex md:flex-row flex-col space-x-10 items-center">
       
 
       <div className='space-x-12 flex'>
@@ -18,7 +18,7 @@ const Footer = () => {
           <BsEnvelopeFill />
         </a>
         </div>
-        <p className=" text-gray-300/50 ml-auto"> 
+        <p className=" text-gray-300/50  md:mt-0 mt-4 ml-auto"> 
          Made by <a href="/Resume.pdf" className="hover:underline text-[#ffb13c]">
           Radosav Perisic  
         </a> © 2023
