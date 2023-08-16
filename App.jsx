@@ -6,6 +6,7 @@ import Skills from "./src/components/Skills"
 import Work from "./src/components/Work"
 import Contact from "./src/components/Contact"
 import Particle from "./src/components/Particle"
+import Footer from "./src/components/Footer"
 
 function App() {
   const [particles, setParticles] = useState(true)
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
+      <Footer />
     </div>
   )
 }
