@@ -20,6 +20,7 @@ const Navbar = (props) => {
   const [nav, setNav] = useState(false);
   const [social, setSocial] = useState(false)
   const [resume, setResume] = useState(false)
+  const [particlesOn, setParticlesOn] = useState(false);
 
   const navClickHandler = () => setNav(!nav);
   const socialClickHandler = () => setSocial(!social);
@@ -117,12 +118,21 @@ const Navbar = (props) => {
       {/* Social icons */}
       <div className={social ? "lg:flex fixed flex-col top-[25%] left-0" : "hidden lg:flex fixed flex-col top-[25%] left-0"}>
         <ul>
-        <button onClick={props.particleClick} title="Particles Effect On/Off" className='w-[50px] ml-2 mb-10 h-[50px] flex font-semibold rounded-full justify-center items-center text-[#ca8a04] hover:text-white outline hover:outline-zinc-400 outline-[#ca8a04] background-particle duration-300' >
-            
-             <HiOutlineSparkles size={social ? 20 : 30} />
-            
-          </button>
-          <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'transform transition-all translate-x-24 duration-300': null} bg-blue-600` :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-blue-600"} >
+        <button
+  onClick={() => {
+    props.particleClick();
+    setParticlesOn(!particlesOn);
+  }}
+  title="Particles Effect On/Off"
+  className={`w-[50px] ml-2 mb-10 h-[50px] flex font-semibold rounded-full hover:outline-zinc-400 hover:text-white justify-center items-center text-[#ca8a04] outline background-particle duration-300 ${
+    particlesOn ? ' text-white outline-zinc-400' : ''
+  }`}
+>
+  <HiOutlineSparkles size={social ? 20 : 30} /> {/* Corrected the icon size */}
+</button>
+
+
+          <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'transition-all translate-x-24 duration-300': null} bg-blue-600` :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-blue-600"} >
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://www.linkedin.com/in/radosav-perisic-58ab96265/"
