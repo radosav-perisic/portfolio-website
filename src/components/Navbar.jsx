@@ -27,9 +27,9 @@ const Navbar = (props) => {
   const resumeClickHandler = () => setResume(!resume);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 background-2 bg-[#181818] shadow-lg text-gray-300 z-10">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-3 background-2 bg-[#181818] shadow-lg text-gray-300 z-10">
       <div>
-        <img src={rp} alt="Logo Image" style={{ width: "145px"}} />
+        <img src={rp} alt="Logo Image" style={{ width: "75px"}} />
       </div>
             {/* Resume button */}
             <div onClick={resumeClickHandler} className="md:hidden z-10  mr-1">
@@ -37,9 +37,8 @@ const Navbar = (props) => {
       </div>
          {/* Socials button */}
          <div onClick={socialClickHandler} className="md:hidden z-10 ">
-        {!social  ? <SocialsButton /> : <FaTimes size={'1.7rem'} style={{margin: '1.61rem'}}/>}
+        {!social  ? <SocialsButton /> : <FaTimes size={'2.45rem'} style={{margin: '1.61rem', color: 'orange'}}/>}
       </div>
-      {/* Resume Button */}
    
 
       {/* main-menu */}
@@ -76,8 +75,8 @@ const Navbar = (props) => {
       </ul>
        
       {/* Hamburger */}
-      <div onClick={navClickHandler} className="md:hidden z-50 relative ml-1">
-        {!nav ? <FaBars size={'1.4rem'}/> : <FaTimes />}
+      <div onClick={navClickHandler} className="md:hidden z-50 relative mr-2">
+        {!nav ? <FaBars size={'1.7rem'}/> : <FaTimes size={'2rem'}/>}
       </div>
 
       {/* mobile-menu */}
