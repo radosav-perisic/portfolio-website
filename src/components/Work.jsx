@@ -11,7 +11,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="background-2 w-full md:h-screen text-[#bcbcb3] font-bold text-lg z-30"
+      className="background w-full md:h-screen text-[#bcbcb3] font-bold text-lg z-30"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full z-40">
         <div className="pb-8 z-prop lg:mt-0 mt-24">
@@ -194,11 +194,11 @@ const Work = () => {
                 backgroundRepeat: "no-repeat",
                 height: "160px",
                 width: "100%",
-                // Optional: adjust border radius for appearance
+                
               }}
             ></div>
 
-            {/* Text and Buttons */}
+            
             <div className="text-center flex flex-col justify-center items-center w-50%">
               <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
                 Creative Wood is your go-to ecommerce store for laser-cut wooden
@@ -239,11 +239,11 @@ const Work = () => {
                 backgroundRepeat: "no-repeat",
                 height: "160px",
                 width: "100%",
-                // Optional: adjust border radius for appearance
+                
               }}
             ></div>
 
-            {/* Text and Buttons */}
+            
             <div className="text-center flex flex-col justify-center items-center w-50%">
               <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
                 Drive into the future with my cutting-edge Tesla Clone App
@@ -283,11 +283,11 @@ const Work = () => {
                 backgroundRepeat: "no-repeat",
                 height: "150px",
                 width: "100%",
-                // Optional: adjust border radius for appearance
+                
               }}
             ></div>
 
-            {/* Text and Buttons */}
+            
             <div className="text-center flex flex-col justify-center items-center w-50%">
               <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
                 Drive into the future with my cutting-edge Tesla Clone App
@@ -327,11 +327,11 @@ const Work = () => {
                 backgroundRepeat: "no-repeat",
                 height: "160px",
                 width: "100%",
-                // Optional: adjust border radius for appearance
+                
               }}
             ></div>
 
-            {/* Text and Buttons */}
+            
             <div className="text-center flex flex-col justify-center items-center w-50%">
               <p className="mt-1 tracking-[0.032em] text-sm font-medium text-[#e3e3de]">
               Claut is a comprehensive cloud management platform that provides
