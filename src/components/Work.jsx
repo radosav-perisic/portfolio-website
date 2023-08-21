@@ -6,6 +6,7 @@ import ClautMobile from "../assets/ClautMobile.png";
 import TwitterMobile from "../assets/TwitterMobile.png";
 import { FaEye, FaCode } from "react-icons/fa";
 import creativewood from "../assets/creativewood.png";
+import { BsImages } from "react-icons/bs";
 
 const Work = () => {
   return (
@@ -14,8 +15,8 @@ const Work = () => {
       className="background w-full md:h-screen text-[#bcbcb3] font-bold text-lg z-30"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full z-40">
-        <div className="pb-8 z-prop lg:mt-0 mt-24">
-          <p className="text-4xl  font-bold inline border-b-4 text-[#bcbcb3] border-[#ca8a04]">
+        <div className="pb-8 z-prop mt-20 lg:mt-0">
+          <p className="text-5xl  font-bold inline border-b-4 text-[#ffffff] border-[#ca8a04]">
             Work
           </p>
           <p className="py-4">// Check out some of my recent work</p>
@@ -29,8 +30,9 @@ const Work = () => {
               backgroundImage: `url(${creativewood})`,
               backgroundSize: "480px",
             }}
-            className=" hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className=" hover:shadow-xl border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
           >
+            <BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
@@ -66,8 +68,9 @@ const Work = () => {
               backgroundImage: `url(${Tesla})`,
               backgroundSize: "520px",
             }}
-            className="hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          >
+            className="hover:shadow-xl  border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+          ><BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+          {/* Hover Effects */}
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
@@ -105,8 +108,9 @@ const Work = () => {
               backgroundImage: `url(${Twitter})`,
               backgroundSize: "480px",
             }}
-            className=" hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          >
+            className=" hover:shadow-xl  border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+          ><BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+          {/* Hover Effects */}
             {/* Hover Effects */}
             <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
@@ -144,8 +148,9 @@ const Work = () => {
               backgroundImage: `url(${Claut})`,
               backgroundSize: "480px",
             }}
-            className=" hover:shadow-xl hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          >
+            className=" hover:shadow-xl  border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+          ><BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+          {/* Hover Effects */}
             {/* Hover Effects */}
             <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
@@ -184,7 +189,7 @@ const Work = () => {
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
             Creative Wood
           </h3>
-          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+          <div className="shadow-xl shadow-[#ffffff37] mb-20 container rounded-md mx-auto flex flex-col items-center">
             {/* Image */}
             <div
               style={{
@@ -229,7 +234,7 @@ const Work = () => {
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
             Tesla Clone
           </h3>
-          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+          <div className="shadow-xl shadow-[#ffffff37] mb-20 container rounded-md mx-auto flex flex-col items-center">
             {/* Image */}
             <div
               style={{
@@ -273,7 +278,7 @@ const Work = () => {
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
             Twitter Clone
           </h3>
-          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+          <div className="shadow-xl shadow-[#ffffff37] mb-20 container rounded-md mx-auto flex flex-col items-center">
             {/* Image */}
             <div
               style={{
@@ -317,7 +322,7 @@ const Work = () => {
           <h3 className="text-3xl text-center font-bold text-[#e3e3de] tracking-wider">
             Claut
           </h3>
-          <div className="shadow-xl shadow-[#040c16] mb-20 container rounded-md mx-auto flex flex-col items-center">
+          <div className="shadow-xl shadow-[#ffffff37] mb-20 container rounded-md mx-auto flex flex-col items-center">
             {/* Image */}
             <div
               style={{
