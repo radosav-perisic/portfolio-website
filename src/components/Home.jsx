@@ -2,15 +2,15 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
 import AltResumeButton from "./AltResumeButton";
-import PortfolioMobile from "./PortoflioMobile";
-import ResumeButton from "./ResumeButton";
+import { PopupButton } from "react-calendly";
+
 
 function Home() {
   return (
     <div name="home" className="w-full h-screen background">
       {/* Cointainer */}
       <div className="max-w-[1000px] lg:pt-10 mx-auto px-4 flex flex-col justify-center h-full">
-        <p className="text-[#ca8a04] z-prop mt-16 md:mt-8">Hi, my name is</p>
+        <p className="text-[#ec8406ea] z-prop mt-16 md:mt-8">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold z-prop text-[#d8da91]">
           Radosav Perisic
         </h1>
@@ -33,8 +33,15 @@ function Home() {
           fingertips. What kind of impact could we make together?
         </p>
         <div className="flex  z-prop">
+        <PopupButton
+        className="text-white  font-bold text-[1.20rem] tracking-wide group border-[5px] px-7 py-[1.1rem] mr-5 my-2 flex items-center hover:bg-orange-700 hover:border-orange-700 duration-300 bg-[#ec8406ea]"
+        url="https://calendly.com/radosavperisic-contact/30-minute-call"
+   
+        rootElement={document.getElementById("root")}
+        text="Let's Talk"
+      />
           <Link to="work" smooth={true} duration={800}>
-            <button className="text-[#ca8a04] hover:text-white font-semibold tracking-wide group border-[3px] px-5 py-3 my-2 flex items-center hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500 bg-[#202020]">
+            <button className="text-[#ec8406ea] hover:text-white font-bold text-[1.20rem] tracking-wide group border-[5px] px-5 py-[1.1rem] my-2 flex items-center hover:bg-[#ec8406ea] duration-500 bg-[#202020]">
               View Work
               <span className="group-hover:rotate-90 text-white duration-300">
                 <HiArrowNarrowRight className="ml-3" size={20} />
