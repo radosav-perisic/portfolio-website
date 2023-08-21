@@ -15,9 +15,9 @@ const Contact = () => {
           <p className="text-4xl font-bold inline  border-b-4 border-[#ca8a04] text-[#bcbcb3]">
             Contact
           </p>
-          <p className="text-[#bcbcb3] py-4 overflow-hidden white-space: nowrap">
+          <p className="text-[#bcbcb3] text-lg font-bold py-4 overflow-hidden white-space: nowrap">
             // Submit the form below or send me an email -
-            radosavperisic.contact@gmail.com
+            <a href="mailto:radosavperisic.contact@gmail.com" className="text-[#ec8406ea] font-semibold hover:underline">radosavperisic.contact@gmail.com</a>
           </p>
         </div>
         <input
