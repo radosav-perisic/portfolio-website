@@ -8,7 +8,7 @@ const PortfolioMobile = () => {
       target="_blank"
     >
       {" "}
-      <button className="bg-[#ca8a04] z-10 text-white font-bold mr-2 py-1.5 px-2 rounded-xl">
+      <button className="bg-[#ec8406ea] border-4 border-white z-10 text-white font-bold mr-2 py-1.5 px-1.5">
         Resume
       </button>
     </a>
