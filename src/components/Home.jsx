@@ -34,14 +34,14 @@ function Home() {
         </p>
         <div className="flex  z-prop">
         <PopupButton
-        className="text-white font-bold text-[1rem] md:text-[1.35rem] tracking-wide group border-[5px] px-5 py-[0.7rem] mr-5 my-2 flex items-center hover:bg-orange-700 hover:border-orange-700 duration-300 bg-[#ec8406ea]"
+        className="text-white font-bold text-[1rem] md:text-[1.25rem] tracking-wide group border-[5px] px-5 py-[0.7rem] mr-5 my-2 flex items-center hover:bg-orange-700 hover:border-orange-700 duration-300 bg-[#ec8406ea]"
         url="https://calendly.com/radosavperisic-contact/30-minute-call"
    
         rootElement={document.getElementById("root")}
         text="Let's Talk"
       />
           <Link to="work" smooth={true} duration={800}>
-            <button className="text-[#ec8406ea] hover:text-white font-bold text-[1rem] md:text-[1.35rem] tracking-wide group border-[5px] px-3 py-[0.7rem] my-2 flex items-center hover:bg-[#ec8406ea] hover:border-[#ec8406ea] duration-500 bg-[#202020]">
+            <button className="text-[#ec8406ea] hover:text-white font-bold text-[1rem] md:text-[1.25rem] tracking-wide group border-[5px] px-3 py-[0.7rem] my-2 flex items-center hover:bg-[#ec8406ea] hover:border-[#ec8406ea] duration-500 bg-[#202020]">
               View Work
               <span className="group-hover:rotate-90 text-white duration-300">
                 <HiArrowNarrowRight className="ml-3" size={20} />
