@@ -12,7 +12,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full mx-4"
       >
         <div className="z-prop pb-3">
-          <p className="text-4xl font-bold inline  border-b-4 border-[#ca8a04] text-[#bcbcb3]">
+          <p className="text-5xl font-bold inline  border-b-4 border-[#ca8a04] text-[#ffffff]">
             Contact
           </p>
           <p className="text-[#bcbcb3] text-lg font-bold py-4 overflow-hidden white-space: nowrap">
