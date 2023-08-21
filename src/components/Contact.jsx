@@ -38,7 +38,7 @@ const Contact = () => {
           rows="10"
           className="z-prop bg-[#f6f2e2] p-2"
         ></textarea>
-        <button className="text-white z-prop bg-[#262626] border-2 hover:bg-[#ca8a04] hover:border-[#ca8a04] duration-500 px-4 py-3 my-4 mx-auto flex items-center">
+        <button className="text-[#ec8406ea] hover:text-white font-semibold text-[1.20rem] z-prop bg-[#202020] hover:bg-[#ec8406ea] border-[5px] hover:bg-[#ca8a04] duration-500 px-4 py-3 my-4 mx-auto flex items-center">
           Let's Collaborate
         </button>
       </form>
