@@ -30,11 +30,11 @@ const Work = () => {
               backgroundImage: `url(${creativewood})`,
               backgroundSize: "480px",
             }}
-            className=" hover:shadow-xl border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
+            className=" hover:shadow-xl  hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-500 group container rounded-md justify-center items-center mx-auto content-div"
           >
-            <BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+            <BsImages size={34} className="float-right m-2 text-white group-hover:hidden duration-300" />
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-500">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Creative Wood
               </h2>
@@ -68,11 +68,11 @@ const Work = () => {
               backgroundImage: `url(${Tesla})`,
               backgroundSize: "520px",
             }}
-            className="hover:shadow-xl  border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          ><BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+            className="hover:shadow-xl   hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-500 group container rounded-md justify-center items-center mx-auto content-div"
+          ><BsImages size={34} className="float-right m-2 text-white group-hover:hidden duration-300" />
           {/* Hover Effects */}
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-500">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Tesla Clone
               </h2>
@@ -108,11 +108,11 @@ const Work = () => {
               backgroundImage: `url(${Twitter})`,
               backgroundSize: "480px",
             }}
-            className=" hover:shadow-xl  border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          ><BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+            className=" hover:shadow-xl   hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-500 group container rounded-md justify-center items-center mx-auto content-div"
+          ><BsImages size={34} className="float-right m-2 text-white group-hover:hidden duration-300" />
           {/* Hover Effects */}
             {/* Hover Effects */}
-            <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-1000">
+            <div className="opacity-0 z-prop text-center group-hover:opacity-100 duration-500">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Twitter Clone
               </h2>
@@ -148,11 +148,11 @@ const Work = () => {
               backgroundImage: `url(${Claut})`,
               backgroundSize: "480px",
             }}
-            className=" hover:shadow-xl  border-[1px] hover:border-none border-[#ffffff] hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-1000 group container rounded-md justify-center items-center mx-auto content-div"
-          ><BsImages size={34} className="float-right m-2 text-white opacity-100 group-hover:opacity-0 duration-300" />
+            className=" hover:shadow-xl   hover:shadow-[#6c6a6a] shadow-[#383737] hover:scale-110 duration-500 group container rounded-md justify-center items-center mx-auto content-div"
+          ><BsImages size={34} className="float-right m-2 text-white group-hover:hidden duration-300" />
           {/* Hover Effects */}
             {/* Hover Effects */}
-            <div className="opacity-0 text-center group-hover:opacity-100 duration-1000">
+            <div className="opacity-0 text-center group-hover:opacity-100 duration-500">
               <h2 className="text-4xl mt-1 font-bold text-[#d3811e] tracking-wider">
                 Claut
               </h2>
