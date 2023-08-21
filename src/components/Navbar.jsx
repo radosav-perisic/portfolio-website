@@ -29,7 +29,7 @@ const Navbar = (props) => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-3 background-2 bg-[#181818] shadow-lg text-gray-300 z-10">
       <div>
-        <img src={rp} alt="Logo Image" style={{ width: "75px"}} />
+        <img src={rp} alt="Logo Image" className="w-[75px] md:w-[90px]" />
       </div>
             {/* Resume button */}
             <div onClick={resumeClickHandler} className="md:hidden z-10  mr-1">
