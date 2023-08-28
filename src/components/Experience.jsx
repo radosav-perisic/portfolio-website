@@ -6,7 +6,6 @@ import scaleroad from "../assets/scaleroad.png";
 import freelance from "../assets/project-screenshot.png";
 
 const Experience = () => {
-
   return (
     <div
       name="experience"
@@ -38,7 +37,7 @@ const Experience = () => {
               TokenFlow
             </h2>
             <div className="text-left py-4 px-2 flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
-              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
+              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
                 <a
                   href="https://tokenflow.ai"
                   className="text-orange-600 hover:underline font-extrabold"
@@ -46,7 +45,7 @@ const Experience = () => {
                   TokenFlow
                 </a>{" "}
                 is a{" "}
-                <span className="font-extrabold leading-[18px] md:leading-normal">
+                <span className="font-extrabold leading-[18px] text-[#ffffff] md:leading-normal">
                   premier smart contract development agency
                 </span>{" "}
                 specialized in building custom-made solutions for web
@@ -55,10 +54,17 @@ const Experience = () => {
                 </span>{" "}
                 clients
               </p>
-              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
+              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
                 I specialize in designing and developing robust and efficient
-                React applications, actively engaging in code reviews and
-                collaborating with security teams to ensure project resilience.
+                React applications, actively{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  engaging in code reviews
+                </span>{" "}
+                and{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  collaborating with security teams
+                </span>{" "}
+                to ensure project resilience.
               </p>
             </div>
           </div>
@@ -78,18 +84,18 @@ const Experience = () => {
               ScaleRoad LLC
             </h2>
             <div className="texty-4 px-2 eft flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
-              <p className="mt-2  mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
+              <p className="mt-2  mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
                 ScaleRoad{" "}
-                <span className="font-extrabold">
+                <span className="font-extrabold text-[#ffffff]">
                   is a SaaS platform for tracking and managing investment
                   research
                 </span>{" "}
                 in a structured, sophisticated and organized way.
               </p>
-              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
-                I specialize in designing and developing robust and efficient
-                React applications, actively engaging in code reviews and
-                collaborating with security teams to ensure project resilience.
+              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
+                I have successfully <span className="font-extrabold text-[#ffffff]">developed unique user interfaces</span> while
+                seamlessly merging intricate subscription and usage-oriented
+                payment mechanisms.
               </p>
             </div>
           </div>
@@ -108,13 +114,13 @@ const Experience = () => {
               Freelance Web Development
             </h2>
             <div className="texty-4 px-2 text-left flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
-              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
-                I've combined my passion for coding and problem-solving to
+              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
+                I've combined my <span className="font-extrabold text-[#ffffff]">passion for coding and problem-solving</span> to
                 create impactful digital solutions for clients.
               </p>
-              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
+              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
                 Mastering React, TypeScript, and CSS, I've created captivating
-                websites that capture brand essence and user engagement.
+                websites that <span className="font-extrabold text-[#ffffff]">capture brand essence</span> and user engagement.
                 Translating client visions into seamless online platforms is my
                 expertise.
               </p>
@@ -135,15 +141,15 @@ const Experience = () => {
               Freelance Ecommerce Development
             </h2>
             <div className="texty-4 px-2 text-left flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
-              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
-                I specialized in crafting dynamic and user-centric online
-                shopping experiences.
+              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
+                I specialized in <span className="font-extrabold text-[#ffffff]">crafting dynamic and user-centric online
+                shopping experiences</span>.
               </p>
-              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-white">
-                Leveraging my expertise, I've seamlessly developed dynamic
-                e-commerce solutions to empower businesses with efficient and
-                captivating online storefronts, driving sales and enhancing
-                customer engagement.
+              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
+                Leveraging my expertise, I've seamlessly <span className="font-extrabold text-[#ffffff]">developed dynamic
+                e-commerce solutions</span> to empower businesses with efficient and
+                captivating online storefronts, <span className="font-extrabold text-[#ffffff]">driving sales and enhancing
+                customer engagement</span>.
               </p>
             </div>
           </div>
