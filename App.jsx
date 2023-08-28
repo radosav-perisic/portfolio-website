@@ -7,6 +7,7 @@ import Work from "./src/components/Work"
 import Contact from "./src/components/Contact"
 import Particle from "./src/components/Particle"
 import Footer from "./src/components/Footer"
+import Experience from "./src/components/Experience"
 
 function App() {
   const [particles, setParticles] = useState(true)
@@ -17,6 +18,7 @@ function App() {
       <Navbar particleClick={particleClick} />
       <Home />
       <About />
+      <Experience />
       <Skills />
       <Work />
       <Contact />
