@@ -58,6 +58,11 @@ const Navbar = (props) => {
           </Link>
         </li>
         <li>
+          <Link className=" hover:text-[#ca8104] tracking-wide duration-300"  offset={-100} to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li>
           <Link className=" hover:text-[#ca8104] tracking-wide duration-300"  to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -98,6 +103,11 @@ const Navbar = (props) => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
+          <Link onClick={navClickHandler} to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
           <Link onClick={navClickHandler} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -134,7 +144,7 @@ const Navbar = (props) => {
           <li className={social ? `w-[140px] h-[45px] flex justify-between items-center ml-[-100px] ${social ? 'transition-all translate-x-24 duration-300': null} bg-blue-600` :"w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-blue-600"} >
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
-              href="https://www.linkedin.com/in/radosav-perisic-58ab96265/"
+              href="https://www.linkedin.com/in/radosav-perisic"
             >
               Linkedin <FaLinkedin size={social ? 20 : 30} />
             </a>
