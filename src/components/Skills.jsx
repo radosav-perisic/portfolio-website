@@ -1,7 +1,9 @@
 import React from "react";
 import CSS from "../assets/css.png";
 import git from "../assets/git.png";
-import Javascript from "../assets/javascript.png";
+import web3 from "../assets/web3.png";
+import hardhat from "../assets/hardhat.png";
+import ethers from "../assets/ethers.png";
 import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import Typescript from "../assets/typescript.png";
@@ -23,34 +25,42 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center font-semibold z-prop py-8">
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
-            <img className="w-24 mx-auto md:pt-0 pt-3" src={ReactImg} alt="HTML icon" />
-            <p className="py-2 text-xl">React</p>
+        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-4 text-center font-semibold z-prop py-8">
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={ReactImg} alt="/" />
+            <p className="py-2 text-[1.4rem] font-bold mt-4">React</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
-            <img className="w-24 mx-auto md:pt-0 pt-3" src={Typescript} alt="HTML icon" />
-            <p className="py-2 text-xl">Typescript</p>
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={Typescript} alt="/" />
+            <p className="py-2 text-[1.4rem] font-bold mt-4">Typescript</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
-            <img className="w-24 mx-auto md:pt-0 pt-3" src={Tailwind} alt="HTML icon" />
-            <p className="py-2 text-xl">Tailwind</p>
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={Tailwind} alt="/" />
+            <p className="py-2 text-[1.4rem] font-bold mt-4">Tailwind</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={CSS} alt="/" />
+            <p className="py-2 text-[1.4rem] font-bold mt-[17px]">CSS</p>
+          </div>
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={web3} alt="/" />
+            <p className="py-2 text-[1.4rem] font-bold mt-6">Web<span className="font-sans">3</span>.js</p>
+          </div>
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={ethers} alt="/" />
+            <p className="py-2 text-[1.4rem] font-bold mt-2">Ethers.js</p>
+          </div>
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
             <img
-              className="w-24 mx-auto md:pt-0 pt-3 z-prop"
-              src={Javascript}
-              alt="HTML icon"
+              className="w-[100px] mx-auto md:pt-0 pt-3 z-prop"
+              src={hardhat}
+              alt="/"
             />
-            <p className="py-2 z-prop text-xl">Javascript</p>
+            <p className="py-2 z-prop text-[1.4rem] font-bold mt-2">Hardhat</p>
           </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
-            <img className="w-24 mx-auto md:pt-0 pt-3" src={git} alt="HTML icon" />
-            <p className="py-2 z-prop text-xl">Git</p>
-          </div>
-          <div className=" z-prop lg:py-5 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
-            <img className="w-24 mx-auto md:pt-0 pt-3" src={CSS} alt="HTML icon" />
-            <p className="py-2 text-xl">CSS</p>
+          <div className=" z-prop lg:py-4 sm:py-2 mx-4 my-4 background-2 rounded-md duration-500">
+            <img className="w-[100px] mx-auto md:pt-0 pt-3" src={git} alt="/" />
+            <p className="py-2 z-prop text-[1.4rem] font-bold mt-2">Git</p>
           </div>
         </div>
       </div>
