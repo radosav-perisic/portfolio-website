@@ -33,7 +33,7 @@ const Experience = () => {
               ></div>
             </div>
 
-            <h2 className="text-center text-2xl font-extrabold text-[#ffffff] tracking-wider mb-3">
+            <h2 className="text-center text-[1.4rem] font-extrabold text-[#ffffff] tracking-wider mb-3">
               TokenFlow
             </h2>
             <div className="text-left py-4 px-2 flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
