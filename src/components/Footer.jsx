@@ -8,7 +8,7 @@ const Footer = () => {
       
 
       <div className='space-x-12 flex  md:mb-0 mb-4'>
-        <a href="https://www.linkedin.com/in/radosav-perisic-58ab96265/" className="md:text-2xl text-xl hover:scale-125 duration-300">
+        <a href="https://www.linkedin.com/in/radosav-perisic" className="md:text-2xl text-xl hover:scale-125 duration-300">
           <BsLinkedin />
         </a>
         <a href="https://github.com/radosav-perisic" className="md:text-2xl text-xl hover:scale-125 duration-300">
