@@ -16,7 +16,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-[#bcbcb3] text-lg font-bold py-4 overflow-hidden white-space: nowrap">
-            // Submit the form below or send me an email -
+            // Submit the form below or send me an email <span className="font-black text-xl">:</span> {("")}
             <a href="mailto:radosavperisic.contact@gmail.com" className="text-[#ec8406ea] font-semibold hover:underline">radosavperisic.contact@gmail.com</a>
           </p>
         </div>
@@ -24,7 +24,8 @@ const Contact = () => {
           type="text"
           name="name"
           placeholder="Name"
-          className="z-prop bg-[#f6f2e2] p-2"
+          className="z-prop focus:ring  bg-[#f6f2e2] p-2"
+          style={{ '--tw-ring-color': '#ff0000' }} 
         />
         <input
           type="email "
