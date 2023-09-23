@@ -35,7 +35,7 @@ function Home() {
         <div className="flex  z-prop">
         <PopupButton
         className="text-white font-bold text-[1rem] md:text-[1.25rem] tracking-wide group border-[4px] px-5 py-[0.7rem] mr-5 my-2 flex items-center hover:bg-orange-700 hover:border-orange-700 duration-300 bg-[#ec8406ea]"
-        url="https://calendly.com/radosavperisic-contact/30-minute-call"
+        url="https://calendly.com/radosav-perisic"
    
         rootElement={document.getElementById("root")}
         text="Let's Talk"
