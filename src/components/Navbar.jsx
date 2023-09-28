@@ -145,6 +145,7 @@ const Navbar = (props) => {
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://www.linkedin.com/in/radosav-perisic"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={social ? 20 : 30} />
             </a>
@@ -153,6 +154,7 @@ const Navbar = (props) => {
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="https://github.com/radosav-perisic"
+              target="_blank"
             >
               Github <FaGithub  size={social ? 20 : 30} />
             </a>
@@ -161,6 +163,7 @@ const Navbar = (props) => {
             <a
               className="flex justify-between items-center w-full text-gray-300 font-semibold"
               href="mailto:radosavperisic.contact@gmail.com"
+              target="_blank"
             >
               Email <HiOutlineMail size={social ? 20 : 30} />
             </a>
