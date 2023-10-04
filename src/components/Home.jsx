@@ -15,7 +15,7 @@ function Home() {
           Radosav Perisic
         </h1>
         <h2 className="text-4xl sm:text-7xl sm:text-left z-prop  font-bold text-[#ffffff] ">
-          I'm a React Front End Engineer.
+          I'm a React Front End Developer.
         </h2>
         <Typed
           className="text-[2.5rem] md:text-7xl font-bold typed z-prop uppercase lg:mt-6 lg:mb-3 text-[#ec8406ea]"
@@ -29,7 +29,7 @@ function Home() {
           me is my driving passion. My area of expertise lies in developing
           software solutions for clients of varying sizes, from individuals and
           small businesses to large corporations. Consider the possibilities of
-          having a proficient React front-end engineer available at your
+          having a proficient React front-end developer available at your
           fingertips. What kind of impact could we make together?
         </p>
         <div className="flex  z-prop">
