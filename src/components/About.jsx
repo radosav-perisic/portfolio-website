@@ -15,7 +15,7 @@ const About = () => {
           </div>    
           <div className="z-prop text-[#d0d0c5] text-left font-semibold text-lg md:mb-0">
             <p>
-              As a front-end engineer, I have abundant experience working with
+              As a front-end developer, I have abundant experience working with
           JavaScript, React.js, TypeScript, and Tailwind. With a deep understanding of both the theoretical and
           practical aspects of front-end development, I excel at creating
           visually stunning and highly functional user interfaces. My attention
