@@ -44,7 +44,7 @@ const Work = () => {
                 versatile LED lamps, and stylish wall clocks.
               </p>
               <div className="mt-2 flex justify-center items-center">
-                <a href="https://creativewood.store">
+                <a href="https://creativewood.online">
                   <button className="text-center rounded-full px-4 py-4 mx-5 text-[#cd6215] hover:text-white border-4 hover:bg-[#cd6215] duration-300 font-bold text-2xl">
                     <FaEye className="icon-scale " />
                   </button>
