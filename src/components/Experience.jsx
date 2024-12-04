@@ -67,6 +67,38 @@ const Experience = () => {
               </p>
             </div>
           </div>
+                {/*Grid Item*/}
+                <div className="flex flex-col z-prop">
+                  <div className=" mb-7 container mx-auto flex flex-col items-center">
+                    {/* Project Image */}
+                    <div
+                      className="rounded-md border-[2px] h-[180px] md:h-[212px] bg-cover bg-center bg-no-repeat w-full  border-white"
+                      style={{
+                        backgroundImage: `url(${avix})`,
+                      }}
+                    ></div>
+                  </div>
+                  <h2 className="text-center text-[1.4rem] font-extrabold text-[#ffffff] tracking-wider mb-3">
+                    Avix Finance
+                  </h2>
+                  <div className="texty-4 px-2 text-left flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
+                    <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
+                      Avix Finance was a{" "}
+                      <span className="font-extrabold text-[#ffffff]">
+                        permissionless tokenized volatility DeFi protocol
+                      </span>{" "}
+                      designed to track the price of VIX on-chain.
+                    </p>
+                    <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
+                      I developed the UI for Avix Finance, ensuring excellent UX.
+                      Collaborating closely with the team, I delivered a seamless and
+                      engaging interface that{" "}
+                      <span className="font-extrabold text-[#ffffff]">
+                        significantly enhanced user satisfaction and interaction
+                      </span>.
+                    </p>
+                  </div>
+                </div>
 
           {/*Grid Item*/}
           <div className="flex flex-col z-prop">
@@ -95,38 +127,6 @@ const Experience = () => {
                 I have successfully <span className="font-extrabold text-[#ffffff]">developed unique user interfaces</span> while
                 seamlessly merging intricate subscription and usage-oriented
                 payment mechanisms.
-              </p>
-            </div>
-          </div>
-          {/*Grid Item*/}
-          <div className="flex flex-col z-prop">
-            <div className=" mb-7 container mx-auto flex flex-col items-center">
-              {/* Project Image */}
-              <div
-                className="rounded-md border-[2px] h-[180px] md:h-[212px] bg-cover bg-center bg-no-repeat w-full  border-white"
-                style={{
-                  backgroundImage: `url(${avix})`,
-                }}
-              ></div>
-            </div>
-            <h2 className="text-center text-[1.4rem] font-extrabold text-[#ffffff] tracking-wider mb-3">
-              Avix Finance
-            </h2>
-            <div className="texty-4 px-2 text-left flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
-              <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
-                Avix Finance was a{" "}
-                <span className="font-extrabold text-[#ffffff]">
-                  permissionless tokenized volatility DeFi protocol
-                </span>{" "}
-                designed to track the price of VIX on-chain.
-              </p>
-              <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
-                I developed the UI for Avix Finance, ensuring excellent UX.
-                Collaborating closely with the team, I delivered a seamless and
-                engaging interface that{" "}
-                <span className="font-extrabold text-[#ffffff]">
-                  significantly enhanced user satisfaction and interaction
-                </span>.
               </p>
             </div>
           </div>
