@@ -1,9 +1,8 @@
 import React from "react";
-import Github from "../assets/Github-Screenshot.png";
 import Ecommerce from "../assets/ecommerce.png";
 import tokenflow from "../assets/tokenflow.png";
 import scaleroad from "../assets/scaleroad.png";
-import freelance from "../assets/project-screenshot.png";
+import avix from '../assets/avix.png';
 
 const Experience = () => {
   return (
@@ -106,23 +105,28 @@ const Experience = () => {
               <div
                 className="rounded-md border-[2px] h-[180px] md:h-[212px] bg-cover bg-center bg-no-repeat w-full  border-white"
                 style={{
-                  backgroundImage: `url(${freelance})`,
+                  backgroundImage: `url(${avix})`,
                 }}
               ></div>
             </div>
             <h2 className="text-center text-[1.4rem] font-extrabold text-[#ffffff] tracking-wider mb-3">
-              Freelance Web Development
+              Avix Finance
             </h2>
             <div className="texty-4 px-2 text-left flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
               <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
-                I've combined my <span className="font-extrabold text-[#ffffff]">passion for coding and problem-solving</span> to
-                create impactful digital solutions for clients.
+                Avix Finance was a{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  permissionless tokenized volatility DeFi protocol
+                </span>{" "}
+                designed to track the price of VIX on-chain.
               </p>
               <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
-                Mastering React, TypeScript, and CSS, I've created captivating
-                websites that <span className="font-extrabold text-[#ffffff]">capture brand essence</span> and user engagement.
-                Translating client visions into seamless online platforms is my
-                expertise.
+                I developed the UI for Avix Finance, ensuring excellent UX.
+                Collaborating closely with the team, I delivered a seamless and
+                engaging interface that{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  significantly enhanced user satisfaction and interaction
+                </span>.
               </p>
             </div>
           </div>
@@ -142,14 +146,21 @@ const Experience = () => {
             </h2>
             <div className="texty-4 px-2 text-left flex container flex-col justify-center items-center w-50% border-[1.5px] h-[205px] bg-[#171717] rounded-md border-white">
               <p className="mt-5 mx-2 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
-                I specialized in <span className="font-extrabold text-[#ffffff]">crafting dynamic and user-centric online
-                shopping experiences</span>.
+                I specialized in{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  crafting dynamic and user-centric online shopping experiences
+                </span>.
               </p>
               <p className="mt-2 mx-2 mb-5 tracking-[0.032em] leading-[18px] md:leading-normal text-sm font-medium text-[#d1d1d1]">
-                Leveraging my expertise, I've seamlessly <span className="font-extrabold text-[#ffffff]">developed dynamic
-                e-commerce solutions</span> to empower businesses with efficient and
-                captivating online storefronts, <span className="font-extrabold text-[#ffffff]">driving sales and enhancing
-                customer engagement</span>.
+                Leveraging my expertise, I've seamlessly{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  developed dynamic e-commerce solutions
+                </span>{" "}
+                to empower businesses with efficient and captivating online
+                storefronts,{" "}
+                <span className="font-extrabold text-[#ffffff]">
+                  driving sales and enhancing customer engagement
+                </span>.
               </p>
             </div>
           </div>
